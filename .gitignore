@@ -1,0 +1,14 @@
+.vercel
+
+node_modules/
+
+.next
+
+*.aux
+*.fdb_latexmk
+*.fls
+*.out
+*.log
+*.synctex.gz
+*.DS_Store
+*.vscode
