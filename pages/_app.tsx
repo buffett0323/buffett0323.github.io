@@ -32,29 +32,19 @@ export default function App({ Component, pageProps }: CustomAppProps) {
         <link rel="manifest" href="/site.webmanifest" /> */}
         {/* <link rel="stylesheet" href="https://unpkg.com/bulma@0.9.4/css/bulma.min.css" /> */}
       </Head>
-      {Component.transparentNavbar ? (
-        <>
-          <Navbar />
-          <div className="-z-50 mt-0 bg-[#F1F1F1] font-sans duration-500 dark:bg-gray-900">
-            <Layout>
-              <>
-                <Component {...pageProps} />
-              </>
-            </Layout>
-          </div>
-        </>
-      ) : (
-        <div className="-z-50 mt-0 min-h-screen bg-[#F1F1F1] font-sans duration-500 dark:bg-gray-900">
-          <Navbar />
+
+      <>
+        <Navbar />
+        <div className="-z-50 mt-0 bg-[#F1F1F1] font-sans duration-500 dark:bg-gray-900">
           <Layout>
-            <div className="m-auto flex items-center pb-12">
+            <>
               <Component {...pageProps} />
-            </div>
+            </>
           </Layout>
         </div>
-      )}
+      </>
+      
       <Analytics />
-      {/* <SpeedInsights /> */}
     </ThemeProvider>
   );
 }
