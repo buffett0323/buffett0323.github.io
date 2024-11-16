@@ -1,39 +1,32 @@
 const descriptionData = [
     <>
-      Hello! My name is <b>Jeng-Yue Liu （劉正悅）</b>, and I am also known as <b>Buffett</b> or{' '}
-      <b>Mecoli</b>. My personal interests include playing piano,{' '}
-      <a
-        className="text-blue-500 hover:underline dark:text-blue-300"
-        href="https://musescore.com/user/11455091?share=copy_link"
-      >
-        composing music
-      </a>
-      , and building websites.
+      Hello! My name is <b>Jeng-Yue Liu （劉正悅）</b>, and I am also known as <b>Buffett</b>. My personal interests include playing DJ & basketball.
+      
     </>,
-    <>
-      I am a Master of Science student in Computer Science Engineering at the University of California
-      San Diego (UCSD) since 2024. My primary interest is in building user-friendly applications and
-      integrating Artificial Intelligence to improve the quality of life. I am particularly
-      enthusiastic about leveraging Machine Learning to create innovative applications and optimize
-      machine learning pipelines.
-    </>,
-    <>
-      During my undergraduate studies at National Taiwan University (NTU), I published five papers,
-      showcasing my dedication to advancing AI research. In the meantime, I gained proficiency in a
-      wide range of programming languages, including JavaScript/TypeScript, Python, C/C++, C#, GoLang,
-      and Rust, Verilog, Matlab, among others. I also participated in several projects, including
-      open-source contributions, to enhance my coding skills. I am eager to continue expanding my
-      technical skills and aspire to build impactful and exciting projects in the future.
-    </>,
-    <>
-      <b>Fun Fact:</b> <i>&apos;Mecoli&apos;</i> is a playful fusion of Michael Lai&apos;s
-      pronunciation and the name of the bacteria E.coli.
-    </>,
+    // <>
+    //   I am a Master of Science student in Computer Science Engineering at the University of California
+    //   San Diego (UCSD) since 2024. My primary interest is in building user-friendly applications and
+    //   integrating Artificial Intelligence to improve the quality of life. I am particularly
+    //   enthusiastic about leveraging Machine Learning to create innovative applications and optimize
+    //   machine learning pipelines.
+    // </>,
+    // <>
+    //   During my undergraduate studies at National Taiwan University (NTU), I published five papers,
+    //   showcasing my dedication to advancing AI research. In the meantime, I gained proficiency in a
+    //   wide range of programming languages, including JavaScript/TypeScript, Python, C/C++, C#, GoLang,
+    //   and Rust, Verilog, Matlab, among others. I also participated in several projects, including
+    //   open-source contributions, to enhance my coding skills. I am eager to continue expanding my
+    //   technical skills and aspire to build impactful and exciting projects in the future.
+    // </>,
+    // <>
+    //   <b>Fun Fact:</b> <i>&apos;Mecoli&apos;</i> is a playful fusion of Michael Lai&apos;s
+    //   pronunciation and the name of the bacteria E.coli.
+    // </>,
   ];
   
   const title = (
     <b>
-      Machine Learning Researcher & <br /> Full-stack Developer
+      Machine Learning Engineer / Researcher & <br /> Software Engineer
     </b>
   );
   

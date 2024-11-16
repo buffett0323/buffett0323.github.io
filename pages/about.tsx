@@ -15,7 +15,7 @@ function About() {
           </p>
         </div>
         <div className="mx-auto mt-10 box-border flex w-full flex-col items-center space-y-16 px-5 max-sm:px-0">
-          {/* <Description /> */}
+          <Description />
           <Education />
           <Awards />
           <Contact />
