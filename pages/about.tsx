@@ -7,7 +7,6 @@ import { title } from '../constants/about';
 function About() {
   return (
     <>
-      {/* <div className="justify-center align-middle text-center flex flex-row items-center"> */}
       <div className="mx-auto flex w-screen flex-col px-5 md:w-2xl lg:w-3xl xl:w-4xl">
         <h1 className="w-full pb-5 pt-10 text-center text-4xl font-bold sm:text-5xl">About Me.</h1>
         <div className="text-container mx-auto max-w-md border-t-2 border-gray-400 pt-2">
@@ -22,7 +21,6 @@ function About() {
           {/* <Contact /> */}
         </div>
       </div>
-      {/* </div> */}
     </>
   );
 }

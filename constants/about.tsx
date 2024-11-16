@@ -33,7 +33,7 @@ const descriptionData = [
   
   const title = (
     <b>
-      Software Engineer & <br /> Machine Learning Engineer/Researcher
+      Machine Learning Researcher & <br /> Full-stack developer
     </b>
   );
   

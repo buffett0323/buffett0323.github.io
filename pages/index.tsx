@@ -4,7 +4,7 @@ const Home = () => {
   return (
     <div style={{ padding: '20px', textAlign: 'center' }}>
       <h1>Welcome to My Website</h1>
-      <p>Hi, I'm Pig Buffett! Welcome to my portfolio.</p>
+      <p>Hi, I'm Buffett Liu! Welcome to my portfolio.</p>
       <Link href="/about">About Me</Link>
     </div>
   );
