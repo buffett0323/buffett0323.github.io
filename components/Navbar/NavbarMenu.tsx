@@ -109,7 +109,7 @@ export const NavbarMenu = ({ setOpenMenu, items, theme, setTheme, mounted }: Nav
           </a>
 
           <a
-            href={generalData.linkin}
+            href={generalData.linkedin}
             className="rounded-lg p-2 hover:bg-[#F1F1F1] hover:shadow-lg hover:dark:bg-gray-700"
           >
             <svg

@@ -1,7 +1,7 @@
 import Awards from '../components/About/Awards';
-// import Contact from '../components/About/Contact';
-// import Description from '../components/About/Description';
-// import Education from '../components/About/Education';
+import Contact from '../components/About/Contact';
+import Description from '../components/About/Description';
+import Education from '../components/About/Education';
 import { title } from '../constants/about';
 
 function About() {
@@ -16,9 +16,9 @@ function About() {
         </div>
         <div className="mx-auto mt-10 box-border flex w-full flex-col items-center space-y-16 px-5 max-sm:px-0">
           {/* <Description /> */}
-          {/* <Education /> */}
+          <Education />
           <Awards />
-          {/* <Contact /> */}
+          <Contact />
         </div>
       </div>
     </>

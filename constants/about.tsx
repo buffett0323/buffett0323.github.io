@@ -33,46 +33,11 @@ const descriptionData = [
   
   const title = (
     <b>
-      Machine Learning Researcher & <br /> Full-stack developer
+      Machine Learning Researcher & <br /> Full-stack Developer
     </b>
   );
   
   const educationData = [
-    [
-      <a
-        href="https://www.ucsd.edu/"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="text-blue-500 hover:underline dark:text-blue-300"
-      >
-        University of California at San Diego
-      </a>,
-      <div>
-        <div className="text-black dark:text-white">
-          <b>Master of Science</b> in Computer Science Engineering
-        </div>
-        <div>Sep. 2024 - Jun. 2026</div>
-      </div>,
-    ],
-    [
-      <a
-        href="https://illinois.edu/"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="text-blue-500 hover:underline dark:text-blue-300"
-      >
-        University of Illinois at Urbana Champaign
-      </a>,
-      <div>
-        <div className="text-black dark:text-white">
-          <b>Exchange Program</b> in Electrical and Computer Engineering
-        </div>
-        <div>Aug. 2023 - Dec. 2023</div>
-        <ul className="list-inside list-disc">
-          <li>GPA: 4.0 / 4.0</li>
-        </ul>
-      </div>,
-    ],
     [
       <a
         href="https://www.ntu.edu.tw/english/"
@@ -84,15 +49,15 @@ const descriptionData = [
       </a>,
       <div>
         <div className="text-black dark:text-white">
-          <b>Bachelor of Science in Engineering</b> at Electrical Engineering
+          <b>Dual Degree:</b> B.B.A. in Information Management & B.S. in Geography
         </div>
-        <div>Sep. 2020 - Jun. 2024</div>
+        <div>Sep. 2020 - Jun. 2025</div>
         <ul className="list-inside list-disc">
-          <li>GPA: 4.16 / 4.30</li>
+          <li>GPA: 3.95 / 4.3</li>
         </ul>
       </div>,
     ],
-  ];
+  ];  
   
   const awardData = [
     [
@@ -111,39 +76,28 @@ const descriptionData = [
     [
       2024,
       <a
-        href="https://make.ntuee.org/"
+        href="https://drive.google.com/file/u/3/d/1H7lJWS4OiuomcfpvtB6dtNqnlNskq0ZV/view?usp=sharing"
         target="_blank"
         rel="noopener noreferrer"
         className="hover:underline"
       >
-        MakeNTU Hackathon Competition <br /> (臺大創新黑客松)
+        Bachelor Degree Thesis Award <br /> (臺大學士論文獎)
       </a>,
-      'Best Creativity Prize, STMicroelectronics Company Prize 1st Place',
+      'Top 3 of the department',
     ],
     [
       2023,
       <>
-        NTUEE Undergraduate Innovation Award <br /> (臺大電機系精專獎)
+        NTU Presidential Award <br />
       </>,
-      'Third Prize Project',
+      'Ranked 1/49 in department',
     ],
     [
-      2020,
+      2023,
       <>
-        Presidential Award <br /> (臺大電機系書卷獎)
+        NTU Dean’s List Award <br />
       </>,
-      'Ranking 3 / 182 in 2020 Fall Semester',
-    ],
-    [
-      2016,
-      'International Junior Science Olympiad (IJSO)',
-      <>
-        <div>
-          <b>3 Personal Gold Medals:</b> Highest personal score among all international participants.{' '}
-          <br />
-          <b>1 Team Gold Medal:</b> Highest team score among all countries.
-        </div>
-      </>,
+      'Twice',
     ],
   ];
   
@@ -164,10 +118,10 @@ const descriptionData = [
       </svg>
       <div className="max-sm:hidden">Email:</div>
       <a
-        href="mailto:michaellai901026@gmail.com"
+        href="mailto:philip910323@gmail.com"
         className="ml-10 basis-full break-words font-normal text-blue-500 hover:underline dark:text-blue-300 max-sm:ml-1"
       >
-        michaellai901026@gmail.com
+        philip910323@gmail.com
       </a>
     </>,
     <>
@@ -181,10 +135,10 @@ const descriptionData = [
       </svg>
       <div className="max-sm:hidden">LinkedIn:</div>
       <a
-        href="https://www.linkedin.com/in/chun-mao-lai-aa1966229"
+        href="https://www.linkedin.com/in/buffettliu/"
         className="ml-4 basis-full font-normal text-blue-500 hover:underline dark:text-blue-300 max-sm:ml-1"
       >
-        Chun-Mao Lai
+        Jeng-Yue Liu
       </a>
     </>,
     <>
@@ -201,7 +155,7 @@ const descriptionData = [
         href="tel:+18583737788"
         className="ml-8 basis-full font-normal text-blue-500 hover:underline dark:text-blue-300 max-sm:ml-1"
       >
-        +1 858-373-7788
+        +886 989-338-717
       </a>
     </>,
   ];

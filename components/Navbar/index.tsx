@@ -150,7 +150,7 @@ export default function Navbar() {
               </a>
 
               <a
-                href={generalData.linkin}
+                href={generalData.linkedin}
                 aria-label="Linkedin"
                 className="rounded-lg p-2 hover:bg-white hover:shadow-lg hover:dark:bg-gray-800"
               >

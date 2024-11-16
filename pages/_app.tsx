@@ -20,9 +20,9 @@ export default function App({ Component, pageProps }: CustomAppProps) {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="theme-color" content="#F1F1F1" />
         <meta name="description" content="Jeng-Yue Liu's personal website" />
-        <meta property="og:image" content="/favicon.ico" />
-        <meta property="og:image:type" content="image/png" />
-        {/* <meta property="og:url" content="www.mecoli.net" /> */}
+        {/* <meta property="og:image" content="/favicon.ico" />
+        <meta property="og:image:type" content="image/png" /> 
+        <meta property="og:url" content="www.mecoli.net" /> */}
         <meta property="og:title" content="Jeng-Yue Liu" />
         <meta property="og:description" content="Jeng-Yue (Buffett) Liu's personal website" />
         <meta httpEquiv="Permissions-Policy" content="interest-cohort=()"></meta>
