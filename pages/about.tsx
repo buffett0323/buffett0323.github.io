@@ -1,16 +1,30 @@
-const About = () => {
+import Awards from '../components/About/Awards';
+// import Contact from '../components/About/Contact';
+// import Description from '../components/About/Description';
+// import Education from '../components/About/Education';
+import { title } from '../constants/about';
+
+function About() {
   return (
-    <div style={{ padding: '20px' }}>
-      <h1>About Me</h1>
-      <p>I am a software developer passionate about building modern web applications.</p>
-      <img
-        src="/images/profile.jpg"
-        alt="Profile"
-        style={{ width: '150px', borderRadius: '50%' }}
-      />
-    </div>
+    <>
+      {/* <div className="justify-center align-middle text-center flex flex-row items-center"> */}
+      <div className="mx-auto flex w-screen flex-col px-5 md:w-2xl lg:w-3xl xl:w-4xl">
+        <h1 className="w-full pb-5 pt-10 text-center text-4xl font-bold sm:text-5xl">About Me.</h1>
+        <div className="text-container mx-auto max-w-md border-t-2 border-gray-400 pt-2">
+          <p className="pb-5 text-center text-xl leading-normal text-gray-600 dark:text-gray-300">
+            {title}
+          </p>
+        </div>
+        <div className="mx-auto mt-10 box-border flex w-full flex-col items-center space-y-16 px-5 max-sm:px-0">
+          {/* <Description /> */}
+          {/* <Education /> */}
+          <Awards />
+          {/* <Contact /> */}
+        </div>
+      </div>
+      {/* </div> */}
+    </>
   );
-};
+}
 
 export default About;
-
