@@ -22,7 +22,6 @@ function Home() {
           </Link>
         </div>
       </div>
-      {/* <ParticleText text={particleText} /> */}
     </>
   );
 }

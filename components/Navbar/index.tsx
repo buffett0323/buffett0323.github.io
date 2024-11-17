@@ -21,19 +21,10 @@ export default function Navbar() {
     ['Experience', '/experience'],
     ['Publications', '/publications'],
     ['Portfolio', '/portfolio'],
-    ['Resume', '/Resume/Buffett_CV.pdf'],
+    ['Resume/CV', '/Buffett_CV.pdf'],
   ];
 
   const barHeight: number = 48;
-
-  // const handleScroll = () => {
-  //   // find current scroll position
-  //   const currentScrollPos = window.pageYOffset;
-  //   // set state based on location info (explained in more detail below)
-  //   setVisible((prevScrollPos > currentScrollPos) || currentScrollPos < barHeight);
-  //   // set state to new scroll position
-  //   setPrevScrollPos(currentScrollPos);
-  // };
 
   useEffect(() => {
     const handleScroll = () => {
