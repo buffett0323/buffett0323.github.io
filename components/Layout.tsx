@@ -5,14 +5,6 @@ type Props = {
   children: React.ReactElement;
 };
 
-/*
-  add the requireAuth property to the page component
-  to protect the page from unauthenticated users
-  e.g.:
-  OrderDetail.requireAuth = true;
-  export default OrderDetail;
- */
-
 export const Layout = ({ children }: Props): JSX.Element => {
   const router = useRouter();
 
