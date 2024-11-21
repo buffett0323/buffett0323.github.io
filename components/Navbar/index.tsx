@@ -19,9 +19,9 @@ export default function Navbar() {
   let items: [string, string][] = [
     ['About', '/about'],
     ['Experience', '/experience'],
-    ['Publications', '/publications'],
-    ['Portfolio', '/portfolio'],
+    ['Publications', '/BS_Thesis.pdf'],
     ['Resume/CV', '/Buffett_CV.pdf'],
+    ['DJ_Resume', '/DJ_Buffett_Resume.pdf'],
   ];
 
   const barHeight: number = 48;
