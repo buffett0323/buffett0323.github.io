@@ -80,7 +80,7 @@ const projectData = [
         <div>
             <b className="text-black dark:text-white">{'Content: '}</b>
         </div>
-        <ul className="ml-4 list-disc list-inside">
+        <ul className="ml-6 list-disc list-inside text-black dark:text-white">
             <li>
                 Collaborated with a team of 6 and California State University, Bakersfield to develop a <b>GraphRAG-based</b> news analysis tool, enabling efficient insight extraction from large datasets and reducing manual effort in social science research.
             </li>
@@ -96,41 +96,47 @@ const projectData = [
 const researchData = [
 [
     <a
-    href="https://nturobotlearninglab.github.io/dbc/"
+    href="http://www.apsipa.org/friendlab/Application/FriendLab.asp?user=citimaclab@gmail.com"
     target="_blank"
     rel="noopener noreferrer"
     className="text-blue-500 hover:underline dark:text-blue-300"
     >
-    Robot Learning Lab
+    Music and Audio Computing Lab (MACLAB), Academia Sinica
     </a>,
     <div>
     <div className="text-black dark:text-white">
         <b>{'Undergraduate Advisor: '}</b>
         <a
-        href="https://shaohua0116.github.io/"
+        href="https://www.ee.ntu.edu.tw/profile1.php?id=1090726"
         target="_blank"
         rel="noopener noreferrer"
         className="text-blue-500 hover:underline dark:text-blue-300"
         >
-        Shao-Hua Sun (孫紹華)
+        Yi-Hsuan Yang（楊奕軒）
+        </a>
+        ,{' '}
+        <a
+        href="https://homepage.iis.sinica.edu.tw/pages/lisu/contact_en.html"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="text-blue-500 hover:underline dark:text-blue-300"
+        >
+        Li Su（蘇黎）
         </a>
     </div>
     <div>
         <b className="text-black dark:text-white">{'Dates: '}</b>
-        Jul. 2022 - present
+        Jan. 2024 - present
     </div>
     <div>
         <b className="text-black dark:text-white">{'Projects: '}</b>
     </div>
-    <div>
-      <b className="text-black dark:text-white">{'Content: '}</b>
-    </div>
-    <ul className="ml-6 list-disc list-inside text-black dark:text-white">
+    <ul className="ml-4 list-disc">
       <li>
-        Collaborated with a team of 6 and California State University, Bakersfield to develop a <b>GraphRAG-based</b> news analysis tool, enabling efficient insight extraction from large datasets and reducing manual effort in social science research.
+        1. Researched <b>Music AI DJ</b> in query-based music source separation, leveraging Band-Split Mamba2 models and <b>Hypernetwork conditioning</b> to enhance instrument-specific separation, boosting Signal-to-Noise Ratio (SNR) by 7%.
       </li>
       <li>
-        Pre-processed and generated QA pairs on news articles data to <b>fine-tune GPT-4o-mini</b> within the GraphRAG framework.
+        2. Designed pre-trained encoders to disentangle pitch and timbre, enabling precise target source isolation from mixture audio.
       </li>
     </ul>
 
@@ -138,116 +144,91 @@ const researchData = [
 ],
 [
     <a
-    href="https://research.tsmc.com/english/collaborations/academic/academic-programs.html"
+    href="http://polab.im.ntu.edu.tw/"
     target="_blank"
     rel="noopener noreferrer"
     className="text-blue-500 hover:underline dark:text-blue-300"
     >
-    TSMC Joint Development Programs
+    Productivity Optimization Lab (POLAB)
     </a>,
     <div>
     <div className="text-black dark:text-white">
         <b>{'Advisor: '}</b>
         <a
-        href="https://shaohua0116.github.io/"
+        href="http://polab.im.ntu.edu.tw/Bio.html"
         target="_blank"
         rel="noopener noreferrer"
         className="text-blue-500 hover:underline dark:text-blue-300"
         >
-        Shao-Hua Sun (孫紹華)
+        Chia-Yen Lee (李家岩)
         </a>
         ,{' '}
         <a
-        href="https://www.linkedin.com/in/ken-chan-8450901b4/"
+        href="https://www.linkedin.com/in/tzufen-chang-9082b027"
         target="_blank"
         rel="noopener noreferrer"
         className="text-blue-500 hover:underline dark:text-blue-300"
         >
-        Ken Chan (詹鈞翔)
+        Tzu-Fen Chang
         </a>
     </div>
     <div>
         <b className="text-black dark:text-white">{'Dates: '}</b>
-        Nov. 2022 - Sep. 2023
+        Jan. 2024 - present
     </div>
     <div>
-        <b className="text-black dark:text-white">{'Project: '}</b> Precision-Driven Pairwise Style
-        Transfer for Ultra-High Resolution Images
+        <b className="text-black dark:text-white">{'Project: '}</b> 
+        Collaborated with a team of 6 and California State University, Bakersfield to develop a GraphRAG-based news analysis tool, 
+        enabling efficient insight extraction from large datasets and reducing manual effort in social science research.
     </div>
     </div>,
 ],
 [
     <a
-    href="https://speech.ee.ntu.edu.tw/~hylee/index.php"
+    href="https://homepage.ntu.edu.tw/~wenthung/index.htm"
     target="_blank"
     rel="noopener noreferrer"
     className="text-blue-500 hover:underline dark:text-blue-300"
     >
-    Speech Processing and Machine Learning Lab
+    Geospatial Computing Lab
     </a>,
     <div>
     <div className="text-black dark:text-white">
         <b>{'Undergraduate Advisor: '}</b>
         <a
-        href="https://speech.ee.ntu.edu.tw/~hylee/index.php"
+        href="https://wenlab501.github.io/iGEAR/people_pi.html"
         target="_blank"
         rel="noopener noreferrer"
         className="text-blue-500 hover:underline dark:text-blue-300"
         >
-        Hung-Yi Lee (李宏毅)
+        Tzai-Hung Wen (溫在弘)
         </a>
     </div>
     <div>
         <b className="text-black dark:text-white">{'Dates: '}</b>
-        Jul. 2022 - Sep. 2023
+        Jan. 2022 - Jun. 2024
     </div>
     <div>
         <b className="text-black dark:text-white">{'Projects: '}</b>
     </div>
     <ul className="ml-4 list-disc">
         <li>
-        <b>[ICASSP&apos;24]</b> AV-SUPERB: A Multi-Task Evaluation Benchmark for Audio-Visual
-        Representation Models
+        1. <b>[B.S. Thesis]</b> Trip-purpose-based methods for predicting human mobility’s next location
         </li>
         <li>
-        Impact of Language Family Distance on few-shot Transfer for Pretrained Speech Upstream
-        Models
+            <a
+                href="https://github.com/buffett0323/Traffic-Simulation-Crowd-Evacuation-at-Taipei-Dome.git"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-500 hover:underline dark:text-blue-300"
+            >
+                2. Taipei Dome Area Traffic Simulation with NetLogo
+            </a>
         </li>
     </ul>
     </div>,
 ],
-[
-    <a
-    href="https://www.csie.ntu.edu.tw/~miulab/"
-    target="_blank"
-    rel="noopener noreferrer"
-    className="text-blue-500 hover:underline dark:text-blue-300"
-    >
-    Machine Intelligence & Understanding Laboratory
-    </a>,
-    <div>
-    <div className="text-black dark:text-white">
-        <b>{'Undergraduate Advisor: '}</b>
-        <a
-        href="https://www.csie.ntu.edu.tw/~yvchen/index.html"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="text-blue-500 hover:underline dark:text-blue-300"
-        >
-        Yun-Nung (Vivian) Chen (陳縕儂)
-        </a>
-    </div>
-    <div>
-        <b className="text-black dark:text-white">{'Dates: '}</b>
-        Jul. 2021 - Sep. 2022
-    </div>
-    <div>
-        <b className="text-black dark:text-white">{'Project: '}</b>
-        <b>[SIGDIAL&apos;22]</b> Controllable User Dialogue Act Augmentation for Dialogue State
-        Tracking
-    </div>
-    </div>,
-],
+
 ];
 
 export { industryData, projectData, researchData };

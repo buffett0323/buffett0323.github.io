@@ -1,27 +1,28 @@
 const descriptionData = [
     <>
-      Hello! My name is <b>Jeng-Yue Liu （劉正悅）</b>, and I am also known as <b>Buffett</b>. My personal interests include playing DJ & basketball.
-      
+      Hello! I’m <b>Jeng-Yue (Buffett) Liu</b>, a passionate individual from New Taipei City, Taiwan, with a deep love for music, innovation, and teamwork.
     </>,
-    // <>
-    //   I am a Master of Science student in Computer Science Engineering at the University of California
-    //   San Diego (UCSD) since 2024. My primary interest is in building user-friendly applications and
-    //   integrating Artificial Intelligence to improve the quality of life. I am particularly
-    //   enthusiastic about leveraging Machine Learning to create innovative applications and optimize
-    //   machine learning pipelines.
-    // </>,
-    // <>
-    //   During my undergraduate studies at National Taiwan University (NTU), I published five papers,
-    //   showcasing my dedication to advancing AI research. In the meantime, I gained proficiency in a
-    //   wide range of programming languages, including JavaScript/TypeScript, Python, C/C++, C#, GoLang,
-    //   and Rust, Verilog, Matlab, among others. I also participated in several projects, including
-    //   open-source contributions, to enhance my coding skills. I am eager to continue expanding my
-    //   technical skills and aspire to build impactful and exciting projects in the future.
-    // </>,
-    // <>
-    //   <b>Fun Fact:</b> <i>&apos;Mecoli&apos;</i> is a playful fusion of Michael Lai&apos;s
-    //   pronunciation and the name of the bacteria E.coli.
-    // </>,
+    <>
+      <b>Music</b> has always been my universal language—a way to connect with people beyond words. 
+      As a party DJ with over five years of experience, I thrive on creating electrifying atmospheres that captivate audiences. 
+      There’s nothing quite like watching a crowd dance their hearts out, completely immersed in the beats. 
+      It’s this magical connection that keeps me returning to the stage time and again.
+
+      Beyond performing, I also co-manage a music bar that celebrates Taiwanese hip-hop, blending it with global music influences. 
+      This venture has been a transformative experience, allowing me to meet people from diverse cultures, broaden my worldview, and refine my cultural sensitivity.
+    </>,
+    <>
+      My passion doesn’t stop at performing—I’m also fascinated by the intersection of <b>AI and music performance</b>. 
+      DJing isn’t just about syncing beats; it’s about reading the crowd, catching the vibe, and reacting in real-time. 
+      This inspired me to explore AI-powered DJ controllers that analyze crowd reactions and music energy, helping DJs maintain peak energy levels and smooth transitions. 
+      I envision pushing this further to revolutionize the performing arts industry through AI-driven innovation.
+    </>,
+    <>
+      <b>Teamwork</b> has been a cornerstone of my journey. From playing in school bands to leading the Geography Student Association during university, I’ve always been drawn to collaboration. 
+      Whether it was organizing high school camps, cross-university events, or national sports competitions, I learned valuable lessons in leadership, teamwork, and discipline. 
+      These experiences shaped me into a driven and adaptable individual, eager to take on new challenges.
+      Music, innovation, and collaboration define who I am, and I’m excited to continue using these passions to connect with others and create impactful experiences.
+    </>,
   ];
   
   const title = (
