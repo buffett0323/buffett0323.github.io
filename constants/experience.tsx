@@ -1,4 +1,13 @@
-const industryData = [
+import { StaticImageData } from "next/image";
+import QUID from '../public/logos/quid.png';
+import ACADEMIA from '../public/logos/academia.png';
+import CIENET from '../public/logos/cienet.png';
+import NSTC from '../public/logos/nstc.jpeg';
+
+
+type IndustryDataType = [React.ReactNode, React.ReactNode, StaticImageData];
+
+const industryData : IndustryDataType[] = [
   [
     <a
       href="https://www.quid.com/"
@@ -16,6 +25,7 @@ const industryData = [
         <b className="text-black dark:text-white">Dates: </b> Dec. 2024 - Present
       </div>
     </div>,
+    QUID,
   ],
   [
     <a
@@ -49,13 +59,14 @@ const industryData = [
           rel="noopener noreferrer"
           className="text-blue-500 hover:underline dark:text-blue-300"
         >
-          Language-Query Source Separation
+          Query-Based Source Separation
         </a>
       </div>
       <div>
         <b className="text-black dark:text-white">Dates: </b> Jun. 2024 - Present
       </div>
     </div>,
+    ACADEMIA,
   ],
   [
     <a
@@ -70,10 +81,22 @@ const industryData = [
       <div className="text-black dark:text-white">
         <b>Title: </b> Engineering Intern
       </div>
+      <div className="text-black dark:text-white">
+        <b>Mentor: </b>
+        <a
+          href="https://www.linkedin.com/in/jimmy-hsieh-12219b178/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-blue-500 hover:underline dark:text-blue-300"
+        >
+          Jimmy Hsieh
+        </a>
+      </div>
       <div>
         <b className="text-black dark:text-white">Dates: </b> Dec. 2023 - Jun. 2024
       </div>
     </div>,
+    CIENET,
   ],
   [
     <a
@@ -99,10 +122,22 @@ const industryData = [
           Prof. Tzai-Hung Wen
         </a>
       </div>
+      <div className="text-black dark:text-white">
+        <b>Project: </b>
+        <a
+          href="https://github.com/buffett0323/BS_Thesis.git"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-blue-500 hover:underline dark:text-blue-300"
+        >
+          Human Mobility Prediction
+        </a>
+      </div>
       <div>
         <b className="text-black dark:text-white">Dates: </b> Sep. 2023 – Apr. 2024
       </div>
     </div>,
+    NSTC,
   ],
 ];
 

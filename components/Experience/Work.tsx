@@ -1,6 +1,8 @@
 import React from 'react';
+import Image from 'next/image';
 import { industryData } from '../../constants/experience';
 import { MyTableRow } from '../utils';
+
 
 export default function Work() {
   return (
@@ -8,13 +10,23 @@ export default function Work() {
       <h1 className="mb-8 text-center text-3xl font-bold">{'Industry'}</h1>
       <div className="overflow-x-auto">
         <table className="min-w-screen w-full border-separate border-spacing-0 bg-transparent text-left align-middle text-base text-gray-500 dark:text-gray-300 max-sm:text-sm max-[400px]:text-xs sm:rounded-lg">
-          <tbody className="">
+          <tbody>
             {industryData.map((data, idx) => (
               <MyTableRow key={idx} idx={idx}>
-                <th className="flex basis-1/3 items-center max-[360px]:basis-1/2">{data[0]}</th>
-                <td className="flex basis-2/3 items-center px-5 max-[360px]:basis-1/2">
-                  {data[1]}
+                {/* Company Logo */}
+                <td className="flex items-center justify-center basis-1/6 px-2">
+                  <Image
+                    src={data[2]} // Correctly typed as StaticImageData
+                    alt="Company Logo"
+                    width={60} 
+                    height={60} 
+                    className="object-contain" 
+                  />
                 </td>
+                {/* Company Name and Link */}
+                <th className="flex basis-1/3 items-center px-2">{data[0]}</th>
+                {/* Job Details */}
+                <td className="flex basis-1/2 items-center px-5">{data[1]}</td>
               </MyTableRow>
             ))}
           </tbody>
