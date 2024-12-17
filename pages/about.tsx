@@ -8,7 +8,7 @@ function About() {
   return (
     <>
       <div className="mx-auto flex w-screen flex-col px-5 md:w-2xl lg:w-3xl xl:w-4xl">
-        <h1 className="w-full pb-5 pt-10 text-center text-4xl font-bold sm:text-5xl">About Me.</h1>
+        <h1 className="w-full pb-5 pt-10 text-center text-4xl font-bold sm:text-5xl">About Me</h1>
         <div className="text-container mx-auto max-w-md border-t-2 border-gray-400 pt-2">
           <p className="pb-5 text-center text-xl leading-normal text-gray-600 dark:text-gray-300">
             {title}

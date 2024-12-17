@@ -32,26 +32,17 @@ const descriptionData = [
   );
   
   const educationData = [
-    [
-      <a
-        href="https://www.ntu.edu.tw/english/"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="text-blue-500 hover:underline dark:text-blue-300"
-      >
-        National Taiwan University
-      </a>,
-      <div>
-        <div className="text-black dark:text-white">
-          <b>Dual Degree:</b> B.B.A. in Information Management & B.S. in Geography
-        </div>
-        <div>Sep. 2020 - Jun. 2025</div>
-        <ul className="list-inside list-disc">
-          <li>GPA: 3.95 / 4.3</li>
-        </ul>
-      </div>,
-    ],
-  ];  
+    {
+      university: "National Taiwan University (NTU)",
+      link: "https://www.ntu.edu.tw/english/",
+      degree: "Dual Degree: B.B.A. in Information Management & B.S. in Geography",
+      period: "Sep. 2020 - Jun. 2025",
+      gpa: [
+        { label: "Overall GPA", value: "3.95 / 4.3" },
+        { label: "CS-related GPA", value: "4.15 / 4.3" },
+      ],
+    },
+  ];
   
   const awardData = [
     [
