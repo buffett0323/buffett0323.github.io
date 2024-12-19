@@ -10,7 +10,7 @@ const descriptionData = [
       href="http://www.apsipa.org/friendlab/Application/FriendLab.asp?user=citimaclab@gmail.com"
       target="_blank"
       rel="noopener noreferrer"
-      className="text-blue-500 underline"
+      className="text-blue-500 hover:underline"
     >
       Music and Audio Computing Lab, Academia Sinica
     </a>
