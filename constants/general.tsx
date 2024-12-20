@@ -2,7 +2,6 @@ const userData = {
     githubUsername: 'buffett0323',
     name: 'Jeng-Yue Liu',
     designation: 'Machine Learning Researcher & Engineer',
-    // avatarUrl: '/avatar.png',
     email: 'philip910323@gmail.com',
     phone: '+886 989-338-717',
     address: 'Taiwan',
