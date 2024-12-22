@@ -5,7 +5,25 @@ import NTUIM from '../public/logos/ntuim.png';
 
 const descriptionData = [
   <>
-    My name is <b>Jeng-Yue (Buffett) Liu 劉正悦</b>. I am now a research assistant working with Prof. Yi-Hsuan Yang and Prof. Li Su at the{' '}
+    My name is <b>Jeng-Yue (Buffett) Liu 劉正悦</b>. I am now a research assistant working with {' '}
+    <a
+      href="https://www.ee.ntu.edu.tw/profile1.php?id=1090726"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="text-blue-500 hover:underline"
+    >
+      Prof. Yi-Hsuan Yang
+    </a>
+    {' '} and {' '}
+    <a
+      href="https://homepage.iis.sinica.edu.tw/pages/lisu/contact_en.html"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="text-blue-500 hover:underline"
+    >
+      Prof. Li Su
+    </a>
+    {' '} at the{' '}
     <a
       href="http://www.apsipa.org/friendlab/Application/FriendLab.asp?user=citimaclab@gmail.com"
       target="_blank"
@@ -17,7 +35,7 @@ const descriptionData = [
     . I hold a dual Bachelor’s degree in Information Management (B.B.A.) and Geography (B.S.) from National Taiwan University.
   </>,
   <>
-    My research focuses on the intersection of Natural Language Processing, Speech Processing, and Music, where I leverage language-query separation models to enhance specific-stem music source separation in the field of Electronic Dance Music (EDM) for AI-DJ. My work emphasizes deep generative models and unsupervised representation learning. Currently, I am exploring two key directions:
+    My research focuses on the intersection of <b>Natural Language Processing</b>, <b>Speech Processing</b>, and <b>Music</b>, where I leverage language-query separation models to enhance specific-stem music source separation in the field of Electronic Dance Music (EDM) for AI-DJ. My work emphasizes <b>Deep Generative Models</b> and <b>Unsupervised Representation Learning</b>. Currently, I am exploring two key directions:
     (1) Adapting text-to-music generation models to disentangle pitch and timbre in music, enabling more effective feature separation.
     (2) Improving timbre transfer for auto-remixing by incorporating query-based methods to enhance creative and dynamic music manipulation.
   </>,
