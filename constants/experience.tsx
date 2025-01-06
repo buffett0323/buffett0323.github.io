@@ -21,6 +21,17 @@ const industryData : IndustryDataType[] = [
       <div className="text-black dark:text-white">
         <b>Title: </b> Machine Learning Engineering Intern
       </div>
+      <div className="text-black dark:text-white">
+        <b>Mentor: </b>
+        <a
+          href="https://www.linkedin.com/in/richohan/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-blue-500 hover:underline dark:text-blue-300"
+        >
+          Cheng-Hsien (Richo) Han
+        </a>
+      </div>
       <div>
         <b className="text-black dark:text-white">Dates: </b> Dec. 2024 - Present
       </div>
@@ -43,7 +54,8 @@ const industryData : IndustryDataType[] = [
       <div className="text-black dark:text-white">
         <b>Mentor: </b>
         <a
-          href="https://homepage.iis.sinica.edu.tw/pages/lisu/index_zh.html"
+          href="https://www.linkedin.com/in/li-su-a38a8a78/"
+          // href="" "https://homepage.iis.sinica.edu.tw/pages/lisu/index_zh.html"
           target="_blank"
           rel="noopener noreferrer"
           className="text-blue-500 hover:underline dark:text-blue-300"
