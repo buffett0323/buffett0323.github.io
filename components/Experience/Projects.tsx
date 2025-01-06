@@ -8,11 +8,24 @@ export default function Project() {
       <h1 className="mb-8 text-center text-3xl font-bold">{'Selected Projects'}</h1>
       <div className="overflow-x-auto">
         <table className="min-w-screen w-full border-separate border-spacing-0 bg-transparent text-left align-middle text-base text-gray-500 dark:text-gray-300 max-sm:text-sm max-[400px]:text-xs sm:rounded-lg">
-          <tbody className="">
+          <tbody>
             {projectData.map((project, idx) => (
               <MyTableRow key={idx} idx={idx}>
-                <th className="flex basis-1/4 items-center max-sm:basis-1/3">{project[0]}</th>
-                <td className="flex basis-3/4 items-center px-5 max-sm:basis-2/3">{project[1]}</td>
+                <td className="flex flex-col items-start gap-4 p-4">
+                  <div className="text-lg font-bold text-blue-500 hover:underline dark:text-blue-300">
+                    {project[0]}
+                  </div>
+                  <div className="w-full mt-4">
+                    <img
+                      src={typeof project[2] === 'string' ? project[2] : project[2]?.src}
+                      alt={`Project ${idx + 1}`}
+                      className="w-full h-auto object-cover rounded-lg"
+                    />
+                  </div>
+                  <div className="mt-4">
+                    {project[1]}
+                  </div>
+                </td>
               </MyTableRow>
             ))}
           </tbody>

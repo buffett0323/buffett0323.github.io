@@ -3,6 +3,7 @@ import QUID from '../public/logos/quid.png';
 import ACADEMIA from '../public/logos/academia.png';
 import CIENET from '../public/logos/cienet.png';
 import NSTC from '../public/logos/nstc.jpeg';
+import InsightLink_Framework from '../public/project_img/framework.png';
 
 
 type IndustryDataType = [React.ReactNode, React.ReactNode, StaticImageData];
@@ -112,7 +113,7 @@ const industryData : IndustryDataType[] = [
   ],
   [
     <a
-      href="https://www.cienet.com/zh-hant/overview"
+      href="https://www.nstc.gov.tw/"
       target="_blank"
       rel="noopener noreferrer"
       className="text-blue-500 hover:underline dark:text-blue-300"
@@ -153,7 +154,9 @@ const industryData : IndustryDataType[] = [
   ],
 ];
 
-const projectData = [
+
+
+const projectData: IndustryDataType[] = [
     [
         <a
         href="https://github.com/buffett0323/graphrag_news_article.git"
@@ -161,7 +164,7 @@ const projectData = [
         rel="noopener noreferrer"
         className="text-blue-500 hover:underline dark:text-blue-300"
         >
-        <b>InsightLink</b>: An LLM-Powered Content Analysis Assistant
+        1. <b>InsightLink</b>: An LLM-Powered Content Analysis Assistant
         </a>,
         <div>
         <div className="text-black dark:text-white">
@@ -200,6 +203,7 @@ const projectData = [
             </li>
         </ul>
         </div>,
+        InsightLink_Framework,
     ],
     [
       <a
@@ -208,7 +212,7 @@ const projectData = [
       rel="noopener noreferrer"
       className="text-blue-500 hover:underline dark:text-blue-300"
       >
-      Innovative Web Solutions for Agriculture: 2024 IMV Contest
+      2. Innovative Web Solutions for Agriculture: 2024 IMV Contest
       </a>,
       <div>
         <div className="text-black dark:text-white">
@@ -238,6 +242,12 @@ const projectData = [
             </li>
         </ul>
       </div>,
+      InsightLink_Framework,
+      // <img
+      //   src={InsightLink_Framework.src} // 使用靜態影像的 src
+      //   alt="InsightLink"
+      //   className="w-32 h-32 object-cover mb-4"
+      // />,
     ],
     
 ];
