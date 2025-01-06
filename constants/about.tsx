@@ -32,7 +32,16 @@ const descriptionData = [
     >
       Music and Audio Computing Lab, Academia Sinica
     </a>
-    . I hold a dual Bachelor’s degree in Information Management (B.B.A.) and Geography (B.S.) from National Taiwan University.
+    . Additionally, I serve as a machine learning engineer intern at {' '}
+    <a
+      href="https://www.quid.com/"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="text-blue-500 hover:underline"
+    >
+      Quid
+    </a>
+    . I hold dual Bachelor’s degree in Information Management (B.B.A.) and Geography (B.S.) from National Taiwan University.
   </>,
   <>
     My research focuses on the intersection of <b>Natural Language Processing</b>, <b>Speech Processing</b>, and <b>Music</b>, where I leverage language-query separation models to enhance specific-stem music source separation in the field of Electronic Dance Music (EDM) for AI-DJ. My work emphasizes <b>Deep Generative Models</b> and <b>Unsupervised Representation Learning</b>. Currently, I am exploring two key directions:
