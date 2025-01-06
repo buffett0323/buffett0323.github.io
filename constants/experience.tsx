@@ -3,8 +3,8 @@ import QUID from '../public/logos/quid.png';
 import ACADEMIA from '../public/logos/academia.png';
 import CIENET from '../public/logos/cienet.png';
 import NSTC from '../public/logos/nstc.jpeg';
-import InsightLink_Framework from '../public/project_img/framework.png';
-
+import InsightLink_Framework from '../public/project_img/imp_framework.png';
+import IMV_Framework from '../public/project_img/imv_framework.png';
 
 type IndustryDataType = [React.ReactNode, React.ReactNode, StaticImageData];
 
@@ -32,6 +32,9 @@ const industryData : IndustryDataType[] = [
         >
           Cheng-Hsien (Richo) Han
         </a>
+      </div>
+      <div className="text-black dark:text-white">
+         <b>Team: </b> Discover Analysis {/*& Predict */}
       </div>
       <div>
         <b className="text-black dark:text-white">Dates: </b> Dec. 2024 - Present
@@ -212,7 +215,7 @@ const projectData: IndustryDataType[] = [
       rel="noopener noreferrer"
       className="text-blue-500 hover:underline dark:text-blue-300"
       >
-      2. Innovative Web Solutions for Agriculture: 2024 IMV Contest
+      2. <b>CarbonSeeker 2.0</b>: Innovative Web Solutions for Agriculture (2024 IMV Contest)
       </a>,
       <div>
         <div className="text-black dark:text-white">
@@ -242,12 +245,7 @@ const projectData: IndustryDataType[] = [
             </li>
         </ul>
       </div>,
-      InsightLink_Framework,
-      // <img
-      //   src={InsightLink_Framework.src} // 使用靜態影像的 src
-      //   alt="InsightLink"
-      //   className="w-32 h-32 object-cover mb-4"
-      // />,
+      IMV_Framework,
     ],
     
 ];
