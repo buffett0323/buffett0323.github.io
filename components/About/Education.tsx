@@ -41,7 +41,27 @@ export default function Education() {
                   <div className="mb-1 text-gray-800 dark:text-white">
                     <b>{education.degree_type}</b>
                     <br />
-                    {education.degree_name}
+                    {/* {education.degree_name} */}
+                    <span>
+                      B.B.A. in {' '}
+                      <a
+                        href="https://management.ntu.edu.tw/en/IM"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-blue-600 hover:underline dark:text-blue-300"
+                      >
+                        Information Management
+                      </a>
+                      {' '} & B.S. in {' '}
+                      <a
+                        href="https://www.geog.ntu.edu.tw/en"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-blue-600 hover:underline dark:text-blue-300"
+                      >
+                        Geography
+                      </a>
+                    </span>
                   </div>
                   <div className="text-sm mb-2 text-gray-500 dark:text-gray-400">
                     {education.period}
@@ -54,24 +74,6 @@ export default function Education() {
                       </li>
                     ))}
                   </ul>
-
-                  {/* Department Logos */}
-                  {/* <div className="mt-4 flex space-x-4">
-                    {education.departmentLogos.map((dept, deptIdx) => (
-                      <div key={deptIdx} className="flex flex-col items-center">
-                        <Image
-                          src={dept.logo}
-                          alt={`${dept.name} Logo`}
-                          width={40}
-                          height={40}
-                          className="object-contain"
-                        />
-                        <span className="mt-1 text-xs text-gray-600 dark:text-gray-300">
-                          {dept.name}
-                        </span>
-                      </div>
-                    ))}
-                  </div> */}
                 </td>
               </tr>
             ))}

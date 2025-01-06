@@ -1,9 +1,9 @@
-// import Extra from '../components/Experience/Extra';
 import Research from '../components/Experience/Research';
 import Skills from '../components/Experience/Skills';
 import Work from '../components/Experience/Work';
+import Research_Interest from '../components/Experience/Research_Interest';
 // import Selected_Projects from '../components/Experience/Projects';
-// import Research_Interest from '../components/Experience/Research_Interest';
+
 
 function Experience() {
   return (
@@ -16,11 +16,10 @@ function Experience() {
           </p>
         </div>
         <div className="mx-auto mt-10 box-border flex w-full flex-col items-center space-y-16 px-5 max-sm:px-0">
-            {/* <Research_Interest /> */}
             <Work />
-            {/* <Selected_Projects /> */}
             <Research />
             <Skills />
+            <Research_Interest />
         </div>
       </div>
     </>

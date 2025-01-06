@@ -109,24 +109,27 @@ const awardData = [
       The Phi Tau Phi Scholastic Honor Society of the Republic of China <br />{' '}
       (中華民國斐陶斐榮譽學會)
     </a>,
-    'Honorary Member',
+    'Inducted as an honorary member, recognizing the top 1% of students for outstanding academic performance at the university.',
   ],
   [
     2024,
-    <a
-      href="https://drive.google.com/file/u/3/d/1H7lJWS4OiuomcfpvtB6dtNqnlNskq0ZV/view?usp=sharing"
-      target="_blank"
-      rel="noopener noreferrer"
-      className="hover:underline"
-    >
-      Bachelor Degree Thesis Award <br /> (臺大學士論文獎)
-    </a>,
-    'Top 3 of the department',
+    // <a
+    //   href="https://drive.google.com/file/u/3/d/1H7lJWS4OiuomcfpvtB6dtNqnlNskq0ZV/view?usp=sharing"
+    //   target="_blank"
+    //   rel="noopener noreferrer"
+    //   className="hover:underline"
+    // >
+    <> 
+      Bachelor Degree Thesis Award <br /> 
+      {/* (臺大學士論文獎)  */}
+    </>,
+    'Ranked top 3 in department',
   ],
   [
     2023,
     <>
       NTU Presidential Award <br />
+      {/* (臺大校長獎)  */}
     </>,
     'Ranked 1/49 in department',
   ],
@@ -134,6 +137,7 @@ const awardData = [
     2023,
     <>
       NTU Dean’s List Award <br />
+      {/* (臺大書卷獎)  */}
     </>,
     'Twice',
   ],
@@ -190,10 +194,10 @@ const contactData = [
     </svg>
     <div className="max-sm:hidden">Phone:</div>
     <a
-      href="tel:+18583737788"
+      href="tel:+886989338717"
       className="ml-8 basis-full font-normal text-blue-500 hover:underline dark:text-blue-300 max-sm:ml-1"
     >
-      +886 989-338-717
+      (+886) 989-338-717
     </a>
   </>,
 ];
