@@ -333,7 +333,7 @@ const researchData = [
     rel="noopener noreferrer"
     className="text-blue-500 hover:underline dark:text-blue-300"
     >
-    Music and Audio Computing Lab (MAC Lab), Academia Sinica
+    Music and Audio Computing Lab, Academia Sinica
     </a>,
     <div>
     <div className="text-black dark:text-white">
@@ -381,7 +381,7 @@ const researchData = [
     rel="noopener noreferrer"
     className="text-blue-500 hover:underline dark:text-blue-300"
     >
-    Productivity Optimization Lab (PO Lab), NTU
+    Productivity Optimization Lab, NTU
     </a>,
     <div>
     <div className="text-black dark:text-white">
@@ -471,6 +471,115 @@ const researchData = [
 
 ];
 
+const taData = [
+  [
+    <a
+      href="https://www.csie.ntu.edu.tw/~htlin/course/ml23fall/"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="text-blue-500 hover:underline dark:text-blue-300"
+    >
+      Machine Learning, NTU
+    </a>,
+    <div>
+    <div className="text-black dark:text-white">
+        <b>{'Mentor: '}</b>
+        <a
+        href="https://www.csie.ntu.edu.tw/~htlin/"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="text-blue-500 hover:underline dark:text-blue-300"
+        >
+        Hsuan-Tien Lin (林軒田)
+        </a>
+    </div>
+    <div>
+        <b className="text-black dark:text-white">{'Dept: '}</b>
+        <a
+        href="https://www.csie.ntu.edu.tw//?locale=en"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="text-blue-500 hover:underline dark:text-blue-300"
+        >        
+        Computer Science & Information Engineering, NTU
+        </a>
+    </div>
+    <div>
+        <b className="text-black dark:text-white">{'Dates: '}</b>
+        Jan. 2023 – Jan. 2024 (2 semesters)
+    </div>
+    
+    <div>
+        <b className="text-black dark:text-white">{'Content: '}</b>
+    </div>
+    <ul className="ml-4 list-disc">
+      <li>
+        Designed assignments & projects, and led TA sessions in English to support students with problem-solving and queries.
+      </li>
+      <li>
+        Conceived and led the {' '}
+        <a
+          href="https://drive.google.com/file/d/15_Zq-RQpNGXFjYSnHqSP1oA6xFjR6V-m/view?usp=sharing"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-blue-500 hover:underline dark:text-blue-300"
+        >final project
+        </a>, originating from my idea.
+        Utilized Generative Adversarial Networks(GANs) to generate a noisier dataset based on the original, increasing task difficulty in a student final project, then applied machine learning models to establish baselines. {' '}
+      </li>
+    </ul>
+    </div>,
+  ],
+  [
+    <a
+      href="https://nol.ntu.edu.tw/nol/coursesearch/print_table.php?lang=EN&course_id=208%2011510&class=&dpt_code=2080&ser_no=69731&semester=110-2"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="text-blue-500 hover:underline dark:text-blue-300"
+    >
+      Computer Programming, NTU
+    </a>,
+    <div>
+    <div className="text-black dark:text-white">
+        <b>{'Mentor: '}</b>
+        <a
+        href="https://wenlab501.github.io/iGEAR/people_pi.html"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="text-blue-500 hover:underline dark:text-blue-300"
+        >
+        Tzai-Hung Wen (溫在弘)
+        </a>
+    </div>
+    <div>
+        <b className="text-black dark:text-white">{'Dept: '}</b>
+        <a
+        href="https://www.geog.ntu.edu.tw/index.php/en/"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="text-blue-500 hover:underline dark:text-blue-300"
+        >        
+        Geography, NTU
+        </a>
+    </div>
+    <div>
+        <b className="text-black dark:text-white">{'Dates: '}</b>
+        Feb. 2022 – Jun. 2022
+    </div>
+    
+    <div>
+        <b className="text-black dark:text-white">{'Content: '}</b>
+    </div>
+    <ul className="ml-4 list-disc">
+      <li>
+        Led coding exercises, explained programming logic, and graded assignments & exams.
+      </li>
+    </ul>
+    </div>,
+  ],
+];
+
+
 const researchInterests = [
   'Machine Learning',
   'Representation Learning',
@@ -480,4 +589,4 @@ const researchInterests = [
   'Natural Language Processing',
 ];
 
-export { industryData, projectData, researchData, researchInterests };
+export { industryData, projectData, researchData, taData, researchInterests };

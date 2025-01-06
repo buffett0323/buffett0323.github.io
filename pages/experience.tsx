@@ -2,6 +2,7 @@ import Research from '../components/Experience/Research';
 import Skills from '../components/Experience/Skills';
 import Work from '../components/Experience/Work';
 import Research_Interest from '../components/Experience/Research_Interest';
+import Teaching_Experience from '../components/Experience/Teaching_Experience';
 // import Selected_Projects from '../components/Experience/Projects';
 
 
@@ -18,6 +19,7 @@ function Experience() {
         <div className="mx-auto mt-10 box-border flex w-full flex-col items-center space-y-16 px-5 max-sm:px-0">
             <Work />
             <Research />
+            <Teaching_Experience />
             <Skills />
             <Research_Interest />
         </div>
