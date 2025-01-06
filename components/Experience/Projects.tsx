@@ -12,7 +12,7 @@ export default function Selected_Projects() {
             {projectData.map((project, idx) => (
               <MyTableRow key={idx} idx={idx}>
                 <td className="flex flex-col items-start gap-4 p-4">
-                  <div className="text-xl font-bold text-blue-500 hover:underline dark:text-blue-300">
+                  <div className="text-2xl font-bold text-blue-500 hover:underline dark:text-blue-300">
                     {project[0]}
                   </div>
                   <div className="w-full mt-4">

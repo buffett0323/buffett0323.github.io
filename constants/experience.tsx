@@ -5,6 +5,8 @@ import CIENET from '../public/logos/cienet.png';
 import NSTC from '../public/logos/nstc.jpeg';
 import InsightLink_Framework from '../public/project_img/imp_framework.png';
 import IMV_Framework from '../public/project_img/imv_framework.png';
+import area_pic from '../public/project_img/area_pic.png';
+import QBSS from '../public/project_img/qbss.jpg';
 
 type IndustryDataType = [React.ReactNode, React.ReactNode, StaticImageData];
 
@@ -195,7 +197,7 @@ const projectData: IndustryDataType[] = [
             Jan. 2024 - Dec. 2024
         </div>
         <div>
-            <b className="text-black dark:text-white">{'Content: '}</b>
+            <b className="text-black dark:text-white">{'Description: '}</b>
         </div>
         <ul className="ml-6 list-disc list-inside text-black dark:text-white">
             <li>
@@ -210,12 +212,48 @@ const projectData: IndustryDataType[] = [
     ],
     [
       <a
+      href="https://github.com/buffett0323/query_ss.git"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="text-blue-500 hover:underline dark:text-blue-300"
+      >
+      2. Music Query-based Source Separation
+      </a>,
+      <div>
+        <div className="text-black dark:text-white">
+            <b>{'Advisor: '}</b>
+            <a
+            href="https://www.linkedin.com/in/li-su-a38a8a78/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-500 hover:underline dark:text-blue-300"
+            >
+            Su Li (蘇黎)
+            </a>
+        </div>
+        <div>
+            <b className="text-black dark:text-white">{'Dates: '}</b>
+            Jul. 2024 - Oct. 2024
+        </div>
+        <div>
+            <b className="text-black dark:text-white">{'Description: '}</b>
+        </div>
+        <ul className="ml-6 list-disc list-inside text-black dark:text-white">
+            <li>
+              This project introduces a novel audio-query-based source separation approach, leveraging the Band-Split Mamba model and advanced latent diffusion techniques to overcome the limitations of traditional source separation methods.
+            </li>
+        </ul>
+      </div>,
+      QBSS,
+    ],
+    [
+      <a
       href="https://github.com/buffett0323/IMV_NTU_2024.git"
       target="_blank"
       rel="noopener noreferrer"
       className="text-blue-500 hover:underline dark:text-blue-300"
       >
-      2. <b>CarbonSeeker 2.0</b>: Innovative Web Solutions for Agriculture (2024 IMV Contest)
+      3. <b>CarbonSeeker 2.0</b>: Innovative Web Solutions for Agriculture (2024 IMV Contest)
       </a>,
       <div>
         <div className="text-black dark:text-white">
@@ -234,7 +272,7 @@ const projectData: IndustryDataType[] = [
             Jul. 2024 - Nov. 2024
         </div>
         <div>
-            <b className="text-black dark:text-white">{'Content: '}</b>
+            <b className="text-black dark:text-white">{'Description: '}</b>
         </div>
         <ul className="ml-6 list-disc list-inside text-black dark:text-white">
             <li>
@@ -246,6 +284,42 @@ const projectData: IndustryDataType[] = [
         </ul>
       </div>,
       IMV_Framework,
+    ],
+    [
+      <a
+      href="https://github.com/buffett0323/Traffic-Simulation-Crowd-Evacuation-at-Taipei-Dome.git"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="text-blue-500 hover:underline dark:text-blue-300"
+      >
+      4. Traffic Simulation at Taipei Dome Area with NetLogo
+      </a>,
+      <div>
+        <div className="text-black dark:text-white">
+            <b>{'Advisor: '}</b>
+            <a
+            href="https://wenlab501.github.io/iGEAR/people_pi.html"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-500 hover:underline dark:text-blue-300"
+            >
+            Tzai-Hung Wen (溫在弘)
+            </a>
+        </div>
+        <div>
+            <b className="text-black dark:text-white">{'Dates: '}</b>
+            Sep. 2022 - Dec. 2022
+        </div>
+        <div>
+            <b className="text-black dark:text-white">{'Description: '}</b>
+        </div>
+        <ul className="ml-6 list-disc list-inside text-black dark:text-white">
+            <li>
+              This project presents a simplified traffic flow simulation focused on the Taipei Dome Area. Using the <b>NetLogo</b> environment, this model aims to simulate and analyze traffic dynamics under various scenarios.
+            </li>
+        </ul>
+      </div>,
+      area_pic,
     ],
     
 ];
