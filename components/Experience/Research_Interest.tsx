@@ -22,3 +22,90 @@ export default function Research_Interest() {
     </div>
   );
 }
+// import React, { useEffect, useState } from 'react';
+// import { researchInterests } from '../../constants/experience';
+
+// const randomPosition = (max:number) => Math.random() * max;
+// const randomVelocity = () => (Math.random() * 2 - 1) * 0.5; // Slow random velocity
+// const bubbleSize = 150;
+
+// export default function Research_Interest() {
+//   const [bubbles, setBubbles] = useState(
+//     researchInterests.map(() => ({
+//       top: randomPosition(80),
+//       left: randomPosition(80),
+//       velocityX: randomVelocity(),
+//       velocityY: randomVelocity(),
+//     }))
+//   );
+
+//   useEffect(() => {
+//     const interval = setInterval(() => {
+//       setBubbles((prevBubbles) =>
+//         prevBubbles.map((bubble, idx) => {
+//           let newTop = bubble.top + bubble.velocityY;
+//           let newLeft = bubble.left + bubble.velocityX;
+
+//           // Check for boundaries
+//           if (newTop < 0 || newTop > 100 - bubbleSize / 10) {
+//             bubble.velocityY = -bubble.velocityY;
+//             newTop = bubble.top + bubble.velocityY;
+//           }
+//           if (newLeft < 0 || newLeft > 100 - bubbleSize / 10) {
+//             bubble.velocityX = -bubble.velocityX;
+//             newLeft = bubble.left + bubble.velocityX;
+//           }
+
+//           // Prevent overlapping by recalculating position if too close to others
+//           for (let i = 0; i < prevBubbles.length; i++) {
+//             if (i !== idx) {
+//               const other = prevBubbles[i];
+//               const dx = newLeft - other.left;
+//               const dy = newTop - other.top;
+//               const distance = Math.sqrt(dx * dx + dy * dy);
+//               if (distance < bubbleSize / 10) {
+//                 bubble.velocityX = -bubble.velocityX;
+//                 bubble.velocityY = -bubble.velocityY;
+//                 newTop = bubble.top + bubble.velocityY;
+//                 newLeft = bubble.left + bubble.velocityX;
+//                 break;
+//               }
+//             }
+//           }
+
+//           return {
+//             ...bubble,
+//             top: newTop,
+//             left: newLeft,
+//           };
+//         })
+//       );
+//     }, 50); // Update every 50ms for smooth movement
+
+//     return () => clearInterval(interval);
+//   }, []);
+
+//   return (
+//     <div className="relative w-full h-screen overflow-hidden bg-gradient-to-r">
+//       <h1 className="absolute top-4 left-1/2 transform -translate-x-1/2 text-4xl font-bold text-black">
+//         Research Interests
+//       </h1>
+//       <div className="relative w-full h-full">
+//         {researchInterests.map((interest, idx) => (
+//           <div
+//             key={idx}
+//             className="absolute flex items-center justify-center rounded-full bg-white p-4 shadow-lg text-gray-700 dark:bg-gray-800 dark:text-gray-100 text-lg font-semibold transform transition-all duration-300"
+//             style={{
+//               top: `${bubbles[idx]?.top}%`,
+//               left: `${bubbles[idx]?.left}%`,
+//               width: `${bubbleSize}px`,
+//               height: `${bubbleSize}px`,
+//             }}
+//           >
+//             {interest}
+//           </div>
+//         ))}
+//       </div>
+//     </div>
+//   );
+// }
