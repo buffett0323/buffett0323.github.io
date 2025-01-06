@@ -18,7 +18,7 @@ const industryData : IndustryDataType[] = [
       rel="noopener noreferrer"
       className="text-blue-500 hover:underline dark:text-blue-300"
     >
-      NetBase Quid Inc.
+      Quid Inc.
     </a>,
     <div>
       <div className="text-black dark:text-white">
