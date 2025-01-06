@@ -2,7 +2,6 @@ import NTU from '../public/logos/ntu.jpeg';
 import NTUGEOG from '../public/logos/ntugeog.jpeg';
 import NTUIM from '../public/logos/ntuim.png';
 
-
 const descriptionData = [
   <>
     My name is <b>Jeng-Yue (Buffett) Liu 劉正悦</b>. I am now a research assistant working with {' '}

@@ -161,7 +161,7 @@ const projectData = [
         rel="noopener noreferrer"
         className="text-blue-500 hover:underline dark:text-blue-300"
         >
-        A GraphRAG & LLM-Powered Content Analysis Assistant
+        <b>InsightLink</b>: An LLM-Powered Content Analysis Assistant
         </a>,
         <div>
         <div className="text-black dark:text-white">
@@ -186,7 +186,7 @@ const projectData = [
         </div>
         <div>
             <b className="text-black dark:text-white">{'Dates: '}</b>
-            Jan. 2022 - Dec. 2024
+            Jan. 2024 - Dec. 2024
         </div>
         <div>
             <b className="text-black dark:text-white">{'Content: '}</b>
@@ -224,7 +224,7 @@ const projectData = [
         </div>
         <div>
             <b className="text-black dark:text-white">{'Dates: '}</b>
-            Jul. 2022 - Dec. 2024
+            Jul. 2024 - Nov. 2024
         </div>
         <div>
             <b className="text-black dark:text-white">{'Content: '}</b>
