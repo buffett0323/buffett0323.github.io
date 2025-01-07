@@ -27,12 +27,12 @@ const industryData : IndustryDataType[] = [
       <div className="text-black dark:text-white">
         <b>Mentor: </b>
         <a
-          href="https://www.linkedin.com/in/richohan/"
+          href="https://www.linkedin.com/in/larrick-chen-b346b933/"
           target="_blank"
           rel="noopener noreferrer"
           className="text-blue-500 hover:underline dark:text-blue-300"
         >
-          Cheng-Hsien (Richo) Han
+          Larrick Chen
         </a>
       </div>
       <div className="text-black dark:text-white">
