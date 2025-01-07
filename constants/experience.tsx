@@ -506,7 +506,7 @@ const taData = [
     </div>
     <div>
         <b className="text-black dark:text-white">{'Dates: '}</b>
-        Jan. 2023 – Jan. 2024 (2 semesters)
+        Jan. 2023 – Jan. 2024 (<b>2 semesters</b>)
     </div>
     
     <div>
