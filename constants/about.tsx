@@ -101,7 +101,7 @@ const awardData = [
   [
     2024,
     <a
-      href="http://www.phitauphi.org.tw/"
+      href="https://drive.google.com/file/d/1FVo-PSHxnAQLR8L9LbPS7BQQo95WQnsF/view?usp=drive_link"
       target="_blank"
       rel="noopener noreferrer"
       className="hover:underline"
@@ -113,32 +113,41 @@ const awardData = [
   ],
   [
     2024,
-    // <a
-    //   href="https://drive.google.com/file/u/3/d/1H7lJWS4OiuomcfpvtB6dtNqnlNskq0ZV/view?usp=sharing"
-    //   target="_blank"
-    //   rel="noopener noreferrer"
-    //   className="hover:underline"
-    // >
-    <> 
+    <a
+      href="https://drive.google.com/file/d/15d4d4eqw26YqYZncAev5_K-zWhZKW77u/view?usp=drive_link"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="hover:underline"
+    >
       Bachelor Degree Thesis Award <br /> 
       {/* (臺大學士論文獎)  */}
-    </>,
+    </a>,
     'Ranked top 3 in department',
   ],
   [
     2023,
-    <>
+    <a
+      href="https://drive.google.com/file/d/1FsIT1Eiwh_B4h_gfFSWbUxC5w5FYwJ63/view?usp=drive_link"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="hover:underline"
+    >
       NTU Presidential Award <br />
       {/* (臺大校長獎)  */}
-    </>,
+    </a>,
     'Ranked 1/49 in department',
   ],
   [
     2023,
-    <>
+    <a
+      href="https://drive.google.com/file/d/1p_h9Sx4lywC1N0eLBCFHUAA20uIgoNdz/view?usp=drive_link"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="hover:underline"
+    >
       NTU Dean’s List Award <br />
       {/* (臺大書卷獎)  */}
-    </>,
+    </a>,
     'Twice',
   ],
 ];
