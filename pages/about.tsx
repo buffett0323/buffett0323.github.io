@@ -3,7 +3,7 @@ import Contact from '../components/About/Contact';
 import Description from '../components/About/Description';
 import Education from '../components/About/Education';
 import { title } from '../constants/about';
-import buffett from '../public/buffett.png';
+import buffett from '../public/handsome_buffett.jpg'; // '../public/buffett.png';
 import Image from 'next/image';
 
 function About() {
