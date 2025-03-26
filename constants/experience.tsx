@@ -365,13 +365,15 @@ const researchData = [
     </div>
     <ul className="ml-4 list-disc">
       <li>
-        Researched <b>Music AI DJ</b> in query-based music source separation, leveraging Band-Split Mamba2 models and <b>Hypernetwork conditioning</b> to enhance instrument-specific separation, boosting Signal-to-Noise Ratio (SNR) by 7%.
+        Researched EDM lead <b>timbre transfer</b> by combining <b>single-shot generation</b> with <b>music transcription</b>, generating backups from text prompts and melody using <b>Latent Diffusion</b> models to enable DJ mashups and song remixes.
       </li>
       <li>
-        Designed pre-trained encoders to disentangle pitch and timbre, enabling precise target source isolation from mixture audio.
+        Applied HTDemucs and All-in-One models for chorus and EDM Lead extraction, developing an EDM Lead timbre encoder using the <b>SimSiam</b> framework with a Swin Transformer on the Beatport dataset across 30 EDM styles.
+      </li>
+      <li>
+        Developed audio-query music <b>source separation</b> by leveraging <b>Band-Split Mamba2</b> models and hypernetwork conditioning, improving instrument-specific separation and increasing signal-to-noise ratio (SNR) by <b>7%</b>.
       </li>
     </ul>
-
     </div>,
 ],
 [
@@ -409,10 +411,16 @@ const researchData = [
         Dec. 2023 - present
     </div>
     <div>
-        <b className="text-black dark:text-white">{'Project: '}</b> 
-        Collaborated with a team of 6 and California State University, Bakersfield to develop a GraphRAG-based news analysis tool, 
-        enabling efficient insight extraction from large datasets and reducing manual effort in social science research.
+        <b className="text-black dark:text-white">{'Projects: '}</b> 
     </div>
+    <ul className="ml-4 list-disc">
+      <li>
+        Collaborated with a team of 6 to develop a <b>GraphRAG</b>-based news content analysis tool, leveraging <b>LLMs</b> for insight extraction from large datasets and reducing manual effort in social science research. <a href="https://github.com/buffett0323/graphrag_news_article.git" className="text-blue-600 italic" target="_blank" rel="noopener noreferrer">[GitHub]</a>
+      </li>
+      <li>
+        Applied <b>NLP</b> techniques such as LDA and NMF to analyze attitude shifts surrounding the 2021 Atlanta spa shootings.
+      </li>
+    </ul>
     </div>,
 ],
 [
@@ -456,14 +464,13 @@ const researchData = [
             </a>
         </li>
         <li>
-            <a
-                href="https://github.com/buffett0323/Traffic-Simulation-Crowd-Evacuation-at-Taipei-Dome.git"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-blue-500 hover:underline dark:text-blue-300"
-            >
-                Traffic Simulation at Taipei Dome Area with NetLogo
-            </a>
+        Developed <b>multimodal spatio-temporal</b> models with a trip-purpose approach, achieving <b>80% accuracy</b>, and designed a data pipeline to integrate mobility data, Google Maps polygons, and remote sensing datasets for spatial analysis.
+        </li>
+        <li>
+          Reached IMV contest semifinals by building a digital transaction platform with <b>TypeScript (React)</b>, <b>Node.js</b>, and <b>MongoDB</b>, and developing a <b>Selenium</b> web crawler for real-time vegetable prices to optimize fertilizer use. <a href="https://github.com/buffett0323/IMV_NTU_2024.git" className="text-blue-600 italic" target="_blank" rel="noopener noreferrer">[GitHub]</a>
+        </li>
+        <li>
+          Simulated 3D crowd and vehicle flows in <b>NetLogo</b> and Python for safer Taipei Dome evacuations, informing exit planning.
         </li>
     </ul>
     </div>,

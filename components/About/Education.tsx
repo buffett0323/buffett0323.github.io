@@ -41,8 +41,8 @@ export default function Education() {
                   <div className="mb-1 text-gray-800 dark:text-white">
                     <b>{education.degree_type}</b>
                     <br />
-                    {/* {education.degree_name} */}
-                    <span>
+                    {education.degree_name}
+                    {/* <span>
                       B.B.A. in {' '}
                       <a
                         href="https://management.ntu.edu.tw/en/IM"
@@ -61,7 +61,7 @@ export default function Education() {
                       >
                         Geography
                       </a>
-                    </span>
+                    </span> */}
                   </div>
                   <div className="text-sm mb-2 text-gray-500 dark:text-gray-400">
                     {education.period}

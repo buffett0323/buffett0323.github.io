@@ -1,6 +1,7 @@
 import NTU from '../public/logos/ntu.jpeg';
 import NTUGEOG from '../public/logos/ntugeog.jpeg';
 import NTUIM from '../public/logos/ntuim.png';
+import CMU from '../public/logos/cmu.png';
 
 const descriptionData = [
   <>
@@ -47,9 +48,9 @@ const descriptionData = [
     (1) Adapting text-to-music generation models to disentangle pitch and timbre in music, enabling more effective feature separation.
     (2) Improving timbre transfer for auto-remixing by incorporating query-based methods to enhance creative and dynamic music manipulation.
   </>,
-  <>
-    <b>I am now applying for a CS & CSE Master starting in Fall 2025 and am excited to connect with and learn from professors and researchers who share similar interests!</b>
-  </>,
+  // <>
+  //   <b>I am now applying for a CS & CSE Master starting in Fall 2025 and am excited to connect with and learn from professors and researchers who share similar interests!</b>
+  // </>,
 ];
 
 const musicData = [
@@ -78,6 +79,18 @@ const title = (
 );
 
 const educationData = [
+  {
+    university: "Carnegie Mellon University (CMU)",
+    link: "https://msaii.cs.cmu.edu/",
+    logo: CMU, // University Logo
+    degree_type: "School of Computer Science",
+    degree_name: "M.Sc. in Artificial Intelligence and Innovation",
+    period: "Aug. 2025 - May. 2027",
+    gpa: [
+      // { label: "Overall GPA", value: "3.95 / 4.3" },
+      // { label: "CS-related GPA", value: "4.15 / 4.3" },
+    ],
+  },
   {
     university: "National Taiwan University (NTU)",
     link: "https://www.ntu.edu.tw/english/",
