@@ -39,7 +39,7 @@ const industryData : IndustryDataType[] = [
          <b>Team: </b> Discover Analysis {/*& Predict */}
       </div>
       <div>
-        <b className="text-black dark:text-white">Dates: </b> Dec. 2024 - Present
+        <b className="text-black dark:text-white">Dates: </b> Dec. 2024 - Jun. 2025
       </div>
     </div>,
     QUID,
@@ -81,7 +81,7 @@ const industryData : IndustryDataType[] = [
         </a>
       </div>
       <div>
-        <b className="text-black dark:text-white">Dates: </b> Jun. 2024 - Present
+        <b className="text-black dark:text-white">Dates: </b> Jun. 2024 - Aug. 2025
       </div>
     </div>,
     ACADEMIA,
@@ -358,20 +358,17 @@ const researchData = [
     </div>
     <div>
         <b className="text-black dark:text-white">{'Dates: '}</b>
-        Jan. 2024 - present
+        Jan. 2024 - Aug. 2025
     </div>
     <div>
         <b className="text-black dark:text-white">{'Projects: '}</b>
     </div>
     <ul className="ml-4 list-disc">
       <li>
-        Researched EDM lead <b>timbre transfer</b> by combining <b>single-shot generation</b> with <b>music transcription</b>, generating backups from text prompts and melody using <b>Latent Diffusion</b> models to enable DJ mashups and song remixes.
+        Proposed a novel end-to-end <b>factorized codec</b> learning framework for timbre/style transfer models with information perturbation and supervision, achieving enhanced timbre-content-ADSR <b>disentanglement</b> for controllable synthesizer preset conversion and surpassing state-of-the-art synthesizer timbre transfer baselines with a multi-resolution STFT loss from 5.69 to <b>2.22</b>. <a href="https://buffett0323.github.io/synthcloner/" className="text-blue-600 italic" target="_blank" rel="noopener noreferrer">[GitHub]</a>
       </li>
       <li>
-        Applied HTDemucs and All-in-One models for chorus and EDM Lead extraction, developing an EDM Lead timbre encoder using the <b>SimSiam</b> framework with a Swin Transformer on the Beatport dataset across 30 EDM styles.
-      </li>
-      <li>
-        Developed audio-query music <b>source separation</b> by leveraging <b>Band-Split Mamba2</b> models and hypernetwork conditioning, improving instrument-specific separation and increasing signal-to-noise ratio (SNR) by <b>7%</b>.
+        Developed an audio-query music <b>source separation</b> system using band-split <b>Mamba2</b> with hypernetwork conditioning, enhancing timbre conditioning and boosting instrument-specific SNR by 7%.
       </li>
     </ul>
     </div>,
@@ -408,7 +405,7 @@ const researchData = [
     </div>
     <div>
         <b className="text-black dark:text-white">{'Dates: '}</b>
-        Dec. 2023 - present
+        Dec. 2023 - Dec. 2024
     </div>
     <div>
         <b className="text-black dark:text-white">{'Projects: '}</b> 

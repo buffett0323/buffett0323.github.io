@@ -5,7 +5,8 @@ import CMU from '../public/logos/cmu.png';
 
 const descriptionData = [
   <>
-    My name is <b>Jeng-Yue (Buffett) Liu 劉正悦</b>. I am now a research assistant working with {' '}
+    My name is <b>Jeng-Yue (Buffett) Liu 劉正悦</b>. I am now a student at Carnegie Mellon University pursuing a Master's degree in Artificial Intelligence and Innovation under the School of Computer Science.
+    I was a research assistant working with {' '}
     <a
       href="https://www.ee.ntu.edu.tw/profile1.php?id=1090726"
       target="_blank"
@@ -32,7 +33,7 @@ const descriptionData = [
     >
       Music and Audio Computing Lab, Academia Sinica
     </a>
-    . Additionally, I serve as a machine learning engineer intern at {' '}
+    . Additionally, I served as a Machine Learning Engineer intern at {' '}
     <a
       href="https://www.quid.com/"
       target="_blank"
@@ -44,13 +45,18 @@ const descriptionData = [
     . I hold dual Bachelor’s degree in Information Management (B.B.A.) and Geography (B.S.) from National Taiwan University.
   </>,
   <>
-    My research focuses on the intersection of <b>Natural Language Processing</b>, <b>Speech Processing</b>, and <b>Music</b>, where I leverage language-query separation models to enhance specific-stem music source separation in the field of Electronic Dance Music (EDM) for AI-DJ. My work emphasizes <b>Deep Generative Models</b> and <b>Unsupervised Representation Learning</b>. Currently, I am exploring two key directions:
-    (1) Adapting text-to-music generation models to disentangle pitch and timbre in music, enabling more effective feature separation.
-    (2) Improving timbre transfer for auto-remixing by incorporating query-based methods to enhance creative and dynamic music manipulation.
+    My research mainly focuses on Music Information Retrieval and Music Generation. I explore:
+    <br /><br />
+    • Timbre/Content/ADSR disentanglement in Synthesizer Preset Conversion
+    <br />
+    • Query-conditioned Source Separation
+    <br />
+    • Text-to-Music Generation
+    <br /><br />
   </>,
-  // <>
-  //   <b>I am now applying for a CS & CSE Master starting in Fall 2025 and am excited to connect with and learn from professors and researchers who share similar interests!</b>
-  // </>,
+  <>
+    <b>I am now actively seeking for an internship in SWE/MLE starting in Summer 2026 and am excited to connect with and learn from engineers and researchers who share similar interests!</b>
+  </>,
 ];
 
 const musicData = [
@@ -74,7 +80,7 @@ const musicData = [
 
 const title = (
   <b>
-    Machine Learning Engineer / Researcher
+    Machine Learning Researcher & Engineer
   </b>
 );
 
@@ -87,6 +93,7 @@ const educationData = [
     degree_name: "M.Sc. in Artificial Intelligence and Innovation",
     period: "Aug. 2025 - May. 2027",
     gpa: [
+      {label: "Current Coursework", value: "Introduction to Machine Learning (10-601), Introduction to Computer Systems (15-503), Generative AI for Music and Audio (15-798), Coding Bootcamp (11-601), AI and Future Markets (11-651), Law of Computer Technology (17-762)"},
       // { label: "Overall GPA", value: "3.95 / 4.3" },
       // { label: "CS-related GPA", value: "4.15 / 4.3" },
     ],
@@ -119,8 +126,7 @@ const awardData = [
       rel="noopener noreferrer"
       className="hover:underline"
     >
-      The Phi Tau Phi Scholastic Honor Society of the Republic of China <br />{' '}
-      (中華民國斐陶斐榮譽學會)
+      The Phi Tau Phi Scholastic Honor Society of the Republic of China
     </a>,
     'Inducted as an honorary member, recognizing the top 1% of students for outstanding academic performance at the university.',
   ],
@@ -185,7 +191,7 @@ const contactData = [
       href="mailto:philip910323@gmail.com"
       className="ml-10 basis-full break-words font-normal text-blue-500 hover:underline dark:text-blue-300 max-sm:ml-1"
     >
-      philip910323@gmail.com
+      buffettl@andrew.cmu.edu{/* philip910323@gmail.com */}
     </a>
   </>,
   <>
@@ -219,7 +225,8 @@ const contactData = [
       href="tel:+886989338717"
       className="ml-8 basis-full font-normal text-blue-500 hover:underline dark:text-blue-300 max-sm:ml-1"
     >
-      (+886) 989-338-717
+      {/* (+886) 989-338-717 */}
+      (+1) 412-284-3635
     </a>
   </>,
 ];

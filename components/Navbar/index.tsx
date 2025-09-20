@@ -20,7 +20,7 @@ export default function Navbar() {
     ['About', '/about'],
     ['Experience', '/experience'],
     ['Projects', '/project'],
-    ['Publications', '/BS_Thesis.pdf'],
+    ['Publications', '/publication'],
     ['Resume/CV', '/Buffett_CV.pdf'],
     ['DJ_Resume', '/DJ_Buffett_Resume.pdf'],
   ];
