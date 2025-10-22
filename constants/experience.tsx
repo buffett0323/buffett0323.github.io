@@ -201,6 +201,7 @@ const projectData: IndustryDataType[] = [
         </div>
         <ul className="ml-6 list-disc list-inside text-black dark:text-white">
             <li>
+                <a href="https://docs.google.com/document/d/1OyaY9eteqoIlhMbj2NIpr0IEKBxsndb4tX-EshMHLKM/edit?tab=t.0" target="_blank" rel="noopener noreferrer" className="text-blue-600 dark:text-blue-400 hover:underline">[Final report] </a>
                 Collaborated with a team of 6 and California State University, Bakersfield to develop a <b>GraphRAG-based</b> news analysis tool, enabling efficient insight extraction from large datasets and reducing manual effort in social science research.
             </li>
             <li>
