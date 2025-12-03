@@ -585,6 +585,65 @@ const taData = [
 ];
 
 
+const openReviewData = [
+  [
+    <a
+      href="https://aiformusicworkshop.github.io/"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="text-blue-500 hover:underline dark:text-blue-300"
+    >
+      NeurIPS AI Music 2025
+    </a>,
+    <div>
+      <div className="text-black dark:text-white">
+        <b>{'Conference: '}</b>
+        NeurIPS Workshop on AI for Music
+      </div>
+      <div>
+        <b className="text-black dark:text-white">{'Dates: '}</b>
+        2025
+      </div>
+      <div>
+        <b className="text-black dark:text-white">{'Description: '}</b>
+      </div>
+      <ul className="ml-6 list-disc list-inside text-black dark:text-white">
+        <li>
+          Reviewing submissions for the NeurIPS Workshop on AI for Music 2025.
+        </li>
+      </ul>
+    </div>,
+  ],
+  [
+    <a
+      href="https://2026.ieeeicassp.org/"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="text-blue-500 hover:underline dark:text-blue-300"
+    >
+      ICASSP 2026
+    </a>,
+    <div>
+      <div className="text-black dark:text-white">
+        <b>{'Conference: '}</b>
+        IEEE International Conference on Acoustics, Speech and Signal Processing
+      </div>
+      <div>
+        <b className="text-black dark:text-white">{'Dates: '}</b>
+        2026
+      </div>
+      <div>
+        <b className="text-black dark:text-white">{'Description: '}</b>
+      </div>
+      <ul className="ml-6 list-disc list-inside text-black dark:text-white">
+        <li>
+          Reviewing submissions for ICASSP 2026.
+        </li>
+      </ul>
+    </div>,
+  ],
+];
+
 const researchInterests = [
   'Machine Learning',
   'Representation Learning',
@@ -594,4 +653,4 @@ const researchInterests = [
   'Natural Language Processing',
 ];
 
-export { industryData, projectData, researchData, taData, researchInterests };
+export { industryData, projectData, researchData, taData, openReviewData, researchInterests };
