@@ -108,6 +108,25 @@ export const NavbarMenu = ({ setOpenMenu, items, theme, setTheme, mounted }: Nav
             </svg>
           </a>
 
+          <a
+            href={generalData.googleScholar}
+            className="rounded-lg p-2 hover:bg-[#F1F1F1] hover:shadow-lg hover:dark:bg-gray-700"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              className="bi bi-mortarboard h-5 w-5"
+              viewBox="0 0 16 16"
+            >
+              <path d="M8.211 2.047a.5.5 0 0 0-.422 0l-7.5 3.5a.5.5 0 0 0 .025.917l7.5 3.5a.5.5 0 0 0 .372 0L14 7.14V13a1 1 0 0 0-1 1v2h3v-2a1 1 0 0 0-1-1V6.739l.686-.275a.5.5 0 0 0 .025-.917l-7.5-3.5ZM8 8.46 1.758 5.5 8 2.54l6.242 2.96L8 8.46Z"/>
+              <path d="M4.176 9.032a.5.5 0 0 1 .292.643l-1.5 4a.5.5 0 1 1-.936-.35l1.5-4a.5.5 0 0 1 .644-.293Zm7.648 0a.5.5 0 0 1 .644.293l1.5 4a.5.5 0 1 1-.936.35l-1.5-4a.5.5 0 0 1 .292-.643Z"/>
+            </svg>
+          </a>
+
           <button
             aria-label="Toggle Dark Mode"
             type="button"
