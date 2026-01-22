@@ -93,7 +93,7 @@ const educationData = [
     degree_name: "M.Sc. in Artificial Intelligence and Innovation",
     period: "Aug. 2025 - May. 2027",
     gpa: [
-      {label: "Current Coursework", value: "Introduction to Machine Learning (10-601), Introduction to Computer Systems (15-503), Generative AI for Music and Audio (15-798), Coding Bootcamp (11-601), AI and Future Markets (11-651), Law of Computer Technology (17-762)"},
+      {label: "Current Coursework", value: "26' Spring: Diffusion and Flow Matching (10-799), Advanced NLP (11-711), LLM Systems (11-868), Intro to Deep Learning (11-785), AI Engineering (11-695), AI Venture Studio (11-681) | 25' Fall: Intro to Machine Learning (10-601), Coding Bootcamp (11-601), Gen AI for Music & Audio (15-798), AI & Future Markets (11-651), Law of Computer Technology (17-762) | 25' Summer: Intro to Computer Systems (15-503)"},
       // { label: "Overall GPA", value: "3.95 / 4.3" },
       // { label: "CS-related GPA", value: "4.15 / 4.3" },
     ],
