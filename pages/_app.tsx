@@ -9,10 +9,15 @@ import { Analytics } from '@vercel/analytics/react';
 type CustomAppProps = AppProps & {
   Component: {
     transparentNavbar?: boolean;
+    noLayout?: boolean;
   };
 };
 
 export default function App({ Component, pageProps }: CustomAppProps) {
+  if (Component.noLayout) {
+    return <Component {...pageProps} />;
+  }
+
   return (
     <ThemeProvider defaultTheme="light" attribute="class">
       <Head>
@@ -35,7 +40,7 @@ export default function App({ Component, pageProps }: CustomAppProps) {
           </Layout>
         </div>
       </>
-      
+
       <Analytics />
     </ThemeProvider>
   );
