@@ -7,6 +7,8 @@ import InsightLink_Framework from '../public/project_img/imp_framework.png';
 import IMV_Framework from '../public/project_img/imv_framework.png';
 import area_pic from '../public/project_img/area_pic.png';
 import QBSS from '../public/project_img/qbss.jpg';
+import Dgrammar_Fig from '../public/project_img/dgrammar_fig1.png';
+import LLMSys_Speedup from '../public/project_img/llmsys_speedup.png';
 
 type IndustryDataType = [React.ReactNode, React.ReactNode, StaticImageData];
 
@@ -163,13 +165,81 @@ const industryData : IndustryDataType[] = [
 
 const projectData: IndustryDataType[] = [
     [
+        <span className="text-2xl font-bold text-blue-500 dark:text-blue-300">
+        1. <b>Dgrammar</b>: Efficient Constrained Decoding for Diffusion Language Models
+        </span>,
+        <div>
+        <div className="text-black dark:text-white">
+            <b>{'Venue: '}</b>
+            Anonymous ACL Submission
+        </div>
+        <div className="text-black dark:text-white">
+            <b>{'Role: '}</b>
+            Author
+        </div>
+        <div>
+            <b className="text-black dark:text-white">{'Description: '}</b>
+        </div>
+        <ul className="ml-6 list-disc list-inside text-black dark:text-white">
+            <li>
+                Introduced <b>Dgrammar</b>, a grammar-constrained decoder for Diffusion Language Models (DLMs) that preserves block-parallel multi-token unmasking — unlike prior methods that fall back to single-token decoding on every grammar violation.
+            </li>
+            <li>
+                Combines <b>incremental prefix checking</b>, selective remasking via logit truncation, asynchronous mask construction, and grammar-guided autoregressive tail completion to enforce formal grammar constraints in-place under the same forward-pass logits.
+            </li>
+            <li>
+                On <b>JSONSchemaBench</b> (medium_test, LLaDA-8B-Instruct): improves schema-valid rate from 76.3% → <b>84.5%</b>, reduces mean latency by <b>5.8×</b>, p95 latency by <b>9.4×</b>, and eliminates all 120 s timeouts.
+            </li>
+        </ul>
+        </div>,
+        Dgrammar_Fig,
+    ],
+    [
+        <a
+        href="https://github.com/buffett0323/mlsys_comp26_flashinfer"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="text-blue-500 hover:underline dark:text-blue-300"
+        >
+        2. Efficient GPU Kernel Design for Block-Sparse Attention in Long-Context LLMs
+        </a>,
+        <div>
+        <div className="text-black dark:text-white">
+            <b>{'Venue: '}</b>
+            MLSys 2026 (FlashInfer AI Kernel Generation Contest)
+        </div>
+        <div className="text-black dark:text-white">
+            <b>{'Authors: '}</b>
+            Jeng-Yue Liu, Wilson Zheng, Haoling Pu — Carnegie Mellon University
+        </div>
+        <div>
+            <b className="text-black dark:text-white">{'Description: '}</b>
+        </div>
+        <ul className="ml-6 list-disc list-inside text-black dark:text-white">
+            <li>
+                Designed and optimized GPU kernels for both stages of the <b>DeepSeek Sparse Attention (DSA)</b> pipeline targeting 128K-token long-context LLM inference.
+            </li>
+            <li>
+                <b>Stage 1 (Top-K Indexer)</b>: Triton-based indexer with FP8 dequantization, cuBLAS scoring, and a two-tier CUDA graph caching scheme for near-zero repeated-call overhead.
+            </li>
+            <li>
+                <b>Stage 2 (Sparse Attention Kernel)</b>: CUDA kernel using WMMA m16n16k16 tensor cores, <code>cp.async</code> double-buffered KV gathering, and a split-K parallelization strategy that lifts SM utilization from ~5% to ~173% at small batch sizes.
+            </li>
+            <li>
+                Achieves <b>22–50× speedup</b> over the PyTorch reference on NVIDIA B200, with kernel latency flat at 53–61 µs across all 23 benchmark workloads and abs_err = 1.56 × 10⁻², well below the contest tolerance.
+            </li>
+        </ul>
+        </div>,
+        LLMSys_Speedup,
+    ],
+    [
         <a
         href="https://github.com/buffett0323/graphrag_news_article.git"
         target="_blank"
         rel="noopener noreferrer"
         className="text-blue-500 hover:underline dark:text-blue-300"
         >
-        1. <b>InsightLink</b>: An LLM-Powered Content Analysis Assistant
+        3. <b>InsightLink</b>: An LLM-Powered Content Analysis Assistant
         </a>,
         <div>
         <div className="text-black dark:text-white">
@@ -218,7 +288,7 @@ const projectData: IndustryDataType[] = [
       rel="noopener noreferrer"
       className="text-blue-500 hover:underline dark:text-blue-300"
       >
-      2. Music Query-based Source Separation
+      4. Music Query-based Source Separation
       </a>,
       <div>
         <div className="text-black dark:text-white">
@@ -254,7 +324,7 @@ const projectData: IndustryDataType[] = [
       rel="noopener noreferrer"
       className="text-blue-500 hover:underline dark:text-blue-300"
       >
-      3. <b>CarbonSeeker 2.0</b>: Innovative Web Solutions for Agriculture (2024 IMV Contest)
+      5. <b>CarbonSeeker 2.0</b>: Innovative Web Solutions for Agriculture (2024 IMV Contest)
       </a>,
       <div>
         <div className="text-black dark:text-white">
@@ -293,7 +363,7 @@ const projectData: IndustryDataType[] = [
       rel="noopener noreferrer"
       className="text-blue-500 hover:underline dark:text-blue-300"
       >
-      4. Traffic Simulation at Taipei Dome Area with NetLogo
+      6. Traffic Simulation at Taipei Dome Area with NetLogo
       </a>,
       <div>
         <div className="text-black dark:text-white">
