@@ -25,8 +25,8 @@ const publications: Publication[] = [
     title: 'Probing Functional Correctness in Diffusion Language Models',
     authors: ['Guan-Ming Chiu', 'Jeng-Yue Liu'],
     venue: 'ACL 2026 Student Research Workshop',
-    link: 'https://openreview.net/forum?id=nrf6F0G2WN&noteId=DOGeGpC5Jl',
-    linkLabel: 'View OpenReview',
+    link: 'https://aclanthology.org/2026.acl-srw.15/',
+    linkLabel: 'View ACL Anthology',
   },
   {
     category: 'ICASSP 2026',
