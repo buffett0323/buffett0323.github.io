@@ -1,30 +1,26 @@
 import React from 'react';
-import Image from 'next/image';
-import { industryData } from '../../constants/experience';
 
-export default function Work() {
+type MetaCardEntry = {
+  org: React.ReactNode;
+  meta: { label: string; value: React.ReactNode }[];
+  bullets?: React.ReactNode[];
+};
+
+/**
+ * Shared three-row card layout: organization on top, metadata in the middle,
+ * bullet points at the bottom. Used by Research and Teaching Assistant sections.
+ */
+export default function MetaCards({ heading, entries }: { heading: string; entries: MetaCardEntry[] }) {
   return (
     <div className="w-full rounded-lg bg-white px-2 py-12 shadow-md dark:bg-gray-600 sm:px-12">
-      <h1 className="mb-8 text-center text-3xl font-bold">{'Work Experience'}</h1>
+      <h1 className="mb-8 text-center text-3xl font-bold">{heading}</h1>
 
       <div className="flex flex-col gap-5">
-        {industryData.map((entry, idx) => (
+        {entries.map((entry, idx) => (
           <article key={idx} className="rounded-lg bg-gray-50 p-5 shadow-sm dark:bg-gray-700">
-            {/* Row 1 — logo, organization, title */}
-            <div className="flex flex-wrap items-center gap-x-4 gap-y-2 border-b border-gray-200 pb-3 dark:border-gray-600">
-              <div className="flex h-14 w-20 shrink-0 items-center justify-center rounded-lg bg-white p-2 shadow-sm">
-                <Image
-                  src={entry.logo}
-                  alt="Company logo"
-                  width={80}
-                  height={56}
-                  className="max-h-full w-auto max-w-full object-contain"
-                />
-              </div>
+            {/* Row 1 — organization */}
+            <div className="border-b border-gray-200 pb-3 dark:border-gray-600">
               <h2 className="text-lg font-bold text-black dark:text-white">{entry.org}</h2>
-              <span className="rounded-full bg-blue-100 px-3 py-1 text-sm font-semibold text-blue-700 dark:bg-blue-900 dark:text-blue-200 sm:ml-auto">
-                {entry.title}
-              </span>
             </div>
 
             {/* Row 2 — remaining metadata */}

@@ -68,11 +68,38 @@ export default function Education() {
                   </div>
                   {/* GPA Details */}
                   <ul className="list-inside list-disc text-sm text-gray-700 dark:text-gray-300">
-                    {education.gpa.map((item, gpaIdx) => (
-                      <li key={gpaIdx}>
-                        {item.label}: <b>{item.value}</b>
-                      </li>
-                    ))}
+                    {education.gpa.map((item, gpaIdx) => {
+                      // Multi-term values are stored as "Term: courses | Term: courses";
+                      // break them onto their own lines so the list stays readable.
+                      const terms = item.value
+                        .split("|")
+                        .map((term) => term.trim())
+                        .filter(Boolean);
+
+                      return (
+                        <li key={gpaIdx} className="mb-1">
+                          {item.label}:{" "}
+                          {terms.length > 1 ? (
+                            <span className="mt-1 block space-y-1 pl-5">
+                              {terms.map((term, termIdx) => {
+                                const sep = term.indexOf(":");
+                                const label = sep > -1 ? term.slice(0, sep) : "";
+                                const courses = sep > -1 ? term.slice(sep + 1).trim() : term;
+
+                                return (
+                                  <span key={termIdx} className="block">
+                                    {label && <b>{label}: </b>}
+                                    {courses}
+                                  </span>
+                                );
+                              })}
+                            </span>
+                          ) : (
+                            <b>{item.value}</b>
+                          )}
+                        </li>
+                      );
+                    })}
                   </ul>
                 </td>
               </tr>

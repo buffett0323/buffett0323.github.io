@@ -15,13 +15,15 @@ export default function Selected_Projects() {
                   <div className="text-2xl font-bold text-blue-500 hover:underline dark:text-blue-300">
                     {project[0]}
                   </div>
-                  <div className="w-full mt-4">
-                    <img
-                      src={typeof project[2] === 'string' ? project[2] : project[2]?.src}
-                      alt={`Project ${idx + 1}`}
-                      className="w-full h-auto object-cover rounded-lg"
-                    />
-                  </div>
+                  {project[2] && (
+                    <div className="w-full mt-4">
+                      <img
+                        src={typeof project[2] === 'string' ? project[2] : project[2]?.src}
+                        alt={`Project ${idx + 1}`}
+                        className="w-full h-auto object-cover rounded-lg"
+                      />
+                    </div>
+                  )}
                   <div className="mt-4">
                     {project[1]}
                   </div>

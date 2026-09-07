@@ -5,26 +5,21 @@ import CMU from '../public/logos/cmu.png';
 
 const descriptionData = [
   <>
-    My name is <b>Jeng-Yue (Buffett) Liu 劉正悦</b>. I am now a student at Carnegie Mellon University pursuing a Master's degree in Artificial Intelligence and Innovation under the School of Computer Science.
-    I was a research assistant working with {' '}
+    I am <b>Jeng-Yue (Buffett) Liu 劉正悦</b>, a Master&rsquo;s student in{' '}
     <a
-      href="https://www.ee.ntu.edu.tw/profile1.php?id=1090726"
+      href="https://msaii.cs.cmu.edu/"
       target="_blank"
       rel="noopener noreferrer"
       className="text-blue-500 hover:underline"
     >
-      Prof. Yi-Hsuan Yang
+      Artificial Intelligence and Innovation
     </a>
-    {' '} and {' '}
-    <a
-      href="https://homepage.iis.sinica.edu.tw/pages/lisu/contact_en.html"
-      target="_blank"
-      rel="noopener noreferrer"
-      className="text-blue-500 hover:underline"
-    >
-      Prof. Li Su
-    </a>
-    {' '} at the{' '}
+    {' '}at the School of Computer Science, <b>Carnegie Mellon University</b>. My work sits at the intersection of
+    {' '}<b>efficient machine learning systems</b> and <b>generative models</b>, building models that are not only
+    capable, but fast, controllable, and reliable enough to run in the real world.
+  </>,
+  <>
+    At the{' '}
     <a
       href="http://www.apsipa.org/friendlab/Application/FriendLab.asp?user=citimaclab@gmail.com"
       target="_blank"
@@ -33,55 +28,80 @@ const descriptionData = [
     >
       Music and Audio Computing Lab, Academia Sinica
     </a>
-    . Additionally, I served as a Machine Learning Engineer intern at {' '}
+    , advised by{' '}
     <a
-      href="https://www.quid.com/"
+      href="https://www.ee.ntu.edu.tw/profile1.php?id=1090726"
       target="_blank"
       rel="noopener noreferrer"
       className="text-blue-500 hover:underline"
     >
-      Quid
+      Prof. Yi-Hsuan Yang
     </a>
-    . I hold dual Bachelor’s degree in Information Management (B.B.A.) and Geography (B.S.) from National Taiwan University.
+    {' '}and{' '}
+    <a
+      href="https://homepage.iis.sinica.edu.tw/pages/lisu/contact_en.html"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="text-blue-500 hover:underline"
+    >
+      Prof. Li Su
+    </a>
+    , I proposed{' '}
+    <a
+      href="https://buffett0323.github.io/synthcloner/"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="text-blue-500 hover:underline"
+    >
+      SynthCloner
+    </a>
+    {' '}(ICASSP 2026), a factorized codec disentangling timbre, content, and ADSR envelope for controllable
+    synthesizer preset conversion, cutting multi-scale STFT loss by <b>47.3%</b> over state-of-the-art baselines. I then
+    carried that line of work into production at{' '}
+    <a
+      href="https://neutone.ai/"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="text-blue-500 hover:underline"
+    >
+      Neutone Inc.
+    </a>
+    , hardening their real-time tone-morphing plugin against out-of-distribution audio.
   </>,
   <>
-    My research mainly focuses on Music Information Retrieval and Music Generation. I explore:
+    At CMU, my project work centers on making inference fast and dependable. I built grammar-constrained decoding for
+    diffusion language models, along with CUDA sparse-attention kernels that reach a <b>22&ndash;50&times; speedup</b> on
+    NVIDIA B200. I also shipped <b>Hypoll</b>, an AI-powered social platform for real-time voice streaming, to iOS.
+    Before CMU, I earned dual Bachelor&rsquo;s degrees in Information Management (B.B.A.) and Geography (B.S.) from{' '}
+    <b>National Taiwan University</b>, graduating summa cum laude in the top 1% of the school.
+  </>,
+  <>
+    My interests center on:
     <br /><br />
-    • Timbre/Content/ADSR disentanglement in Synthesizer Preset Conversion
+    • Efficient LLM inference &amp; serving systems: constrained decoding, sparse attention, GPU kernels
     <br />
-    • Query-conditioned Source Separation
+    • Diffusion and discrete-diffusion language models
     <br />
-    • Text-to-Music Generation
+    • Controllable music and audio generation: timbre / content disentanglement
     <br /><br />
   </>,
   <>
-    <b>I am now actively seeking for an internship in SWE/MLE starting in Summer 2026 and am excited to connect with and learn from engineers and researchers who share similar interests!</b>
+    <b>
+      I am actively seeking full-time Software Engineering / Machine Learning Engineering roles starting May 2028, and I
+      am always glad to connect with engineers and researchers working on similar problems.
+    </b>
   </>,
 ];
 
-const musicData = [
-  <>
-    <b>Music</b> has always been my universal language—a powerful way to connect with people beyond words. As a party DJ with over five years of experience, I thrive on creating electrifying atmospheres that captivate audiences. There’s nothing quite like seeing a crowd lose themselves in the music, dancing with unrestrained joy and energy. It’s this magical connection that draws me back to the stage time and time again.
-  </>,
-  <>
-    Beyond performing, I co-manage a music bar that celebrates Taiwanese hip-hop while blending it with global music influences. This venture has been transformative, offering opportunities to engage with people from diverse cultural backgrounds. It has broadened my worldview and deepened my cultural sensitivity, allowing me to appreciate the unifying power of music even further.
-  </>,
-  <>
-    My passion extends beyond performance—I am equally fascinated by the intersection of <b>AI and music</b>. DJing is more than syncing beats; it’s about reading the crowd, understanding the energy, and adapting in real time. This inspired me to explore AI-powered DJ controllers that analyze crowd reactions and track energy levels, helping DJs maintain peak performance and seamless transitions. I envision pushing this innovation further to revolutionize the performing arts industry with AI-driven solutions that enhance creativity and engagement.
-  </>,
-  <>
-    <b>Teamwork</b> has been a cornerstone of my journey. From playing in school bands to leading the Geography Student Association during university, collaboration has always been at the heart of what I do. Whether organizing high school camps, cross-university events, or national sports competitions, I learned invaluable lessons in leadership, coordination, and adaptability. These experiences shaped me into a driven, resourceful individual, ready to tackle new challenges.
-  </>,
-  <>
-    Music, innovation, and collaboration define who I am. I am eager to continue channeling these passions to connect with others, drive positive change, and create impactful experiences.
-  </>,
-
-];
 
 const title = (
-  <b>
-    Machine Learning Researcher & Engineer
-  </b>
+  <>
+    <b>Machine Learning Engineer &amp; Researcher</b>
+    <br />
+    <span className="text-base text-gray-500 dark:text-gray-400">
+      Efficient LLM Systems &middot; Generative Models
+    </span>
+  </>
 );
 
 const educationData = [
@@ -91,11 +111,10 @@ const educationData = [
     logo: CMU, // University Logo
     degree_type: "School of Computer Science",
     degree_name: "M.Sc. in Artificial Intelligence and Innovation",
-    period: "Aug. 2025 - May. 2027",
+    period: "Aug. 2025 - May. 2028",
     gpa: [
+      { label: "Overall GPA", value: "3.88 / 4.0" },
       {label: "Current Coursework", value: "26' Spring: Diffusion and Flow Matching (10-799), Advanced NLP (11-711), LLM Systems (11-868), Intro to Deep Learning (11-785), AI Engineering (11-695), AI Venture Studio (11-681) | 25' Fall: Intro to Machine Learning (10-601), Coding Bootcamp (11-601), Gen AI for Music & Audio (15-798), AI & Future Markets (11-651), Law of Computer Technology (17-762) | 25' Summer: Intro to Computer Systems (15-503)"},
-      // { label: "Overall GPA", value: "3.95 / 4.3" },
-      // { label: "CS-related GPA", value: "4.15 / 4.3" },
     ],
   },
   {
@@ -108,6 +127,7 @@ const educationData = [
     gpa: [
       { label: "Overall GPA", value: "3.95 / 4.3" },
       { label: "CS-related GPA", value: "4.15 / 4.3" },
+      { label: "Honors", value: "Summa Cum Laude — top 1% of the school" },
     ],
     departmentLogos: [
       { name: "Information Management", logo: NTUIM }, 
@@ -118,6 +138,11 @@ const educationData = [
 
 
 const awardData = [
+  [
+    2025,
+    <span>Summa Cum Laude, National Taiwan University</span>,
+    'Graduated with the highest Latin honors, awarded to the top 1% of the school.',
+  ],
   [
     2024,
     <a
@@ -188,7 +213,7 @@ const contactData = [
     </svg>
     <div className="max-sm:hidden">Email:</div>
     <a
-      href="mailto:philip910323@gmail.com"
+      href="mailto:buffettl@andrew.cmu.edu"
       className="ml-10 basis-full break-words font-normal text-blue-500 hover:underline dark:text-blue-300 max-sm:ml-1"
     >
       buffettl@andrew.cmu.edu{/* philip910323@gmail.com */}
@@ -231,4 +256,4 @@ const contactData = [
   </>,
 ];
 
-export { descriptionData, musicData, title, educationData, awardData, contactData };
+export { descriptionData, title, educationData, awardData, contactData };

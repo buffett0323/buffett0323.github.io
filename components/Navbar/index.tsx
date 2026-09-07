@@ -22,7 +22,7 @@ export default function Navbar() {
     ['Projects', '/project'],
     ['Publications', '/publication'],
     ['Resume/CV', '/Buffett_CV.pdf'],
-    ['DJ_Resume', '/DJ_Buffett_Resume.pdf'],
+    ['DJ', '/DJ_Buffett_Resume.pdf'],
   ];
 
   const barHeight: number = 48;
