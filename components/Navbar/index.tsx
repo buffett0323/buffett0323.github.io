@@ -21,6 +21,7 @@ export default function Navbar() {
     ['Experience', '/experience'],
     ['Projects', '/project'],
     ['Publications', '/publication'],
+    ['Blog', '/blog/'], // separate repo, served as a GitHub Pages project site
     ['Resume/CV', '/Buffett_CV.pdf'],
     ['DJ', '/DJ_Buffett_Resume.pdf'],
   ];
