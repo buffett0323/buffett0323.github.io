@@ -69,9 +69,28 @@ const descriptionData = [
     , hardening their real-time tone-morphing plugin against out-of-distribution audio.
   </>,
   <>
-    At CMU, my project work centers on making inference fast and dependable. I built grammar-constrained decoding for
-    diffusion language models, along with CUDA sparse-attention kernels that reach a <b>22&ndash;50&times; speedup</b> on
-    NVIDIA B200. I also shipped <b>Hypoll</b>, an AI-powered social platform for real-time voice streaming, to iOS.
+    At CMU, my work centers on making inference fast and dependable, with a particular focus on{' '}
+    <b>diffusion language models (dLLMs)</b>. I built <b>Dgrammar</b>, a grammar-constrained decoder for dLLMs that keeps
+    block-parallel unmasking while reaching <b>95.3% schema validity</b> on JSONSchemaBench, co-authored a study probing
+    functional correctness in diffusion language models (ACL SRW 2026), and wrote CUDA sparse-attention kernels that
+    reach a <b>22&ndash;50&times; speedup</b> on NVIDIA B200. I also shipped <b>Hypoll</b>, an AI-powered social
+    platform for real-time voice streaming, to iOS.
+  </>,
+  <>
+    To learn the field properly, and to help others do the same, I built{' '}
+    <a
+      href="https://buffett0323.github.io/learning-dllms/"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="text-blue-500 hover:underline"
+    >
+      dLLM Notes
+    </a>
+    , a learning website for diffusion language models. It goes step by step from the masked-diffusion objective to
+    production serving, covering block diffusion, KV caching, parallel decoding, and batching, with interactive demos
+    and annotated notes on papers such as Fast-dLLM, dKV-Cache, and D2F.
+  </>,
+  <>
     Before CMU, I earned dual Bachelor&rsquo;s degrees in Information Management (B.B.A.) and Geography (B.S.) from{' '}
     <b>National Taiwan University</b>, graduating summa cum laude in the top 1% of the school.
   </>,
@@ -80,7 +99,7 @@ const descriptionData = [
     <br /><br />
     • Efficient LLM inference &amp; serving systems: constrained decoding, sparse attention, GPU kernels
     <br />
-    • Diffusion and discrete-diffusion language models
+    • Diffusion language models: sampling, caching, and parallel decoding for fast dLLM serving
     <br />
     • Controllable music and audio generation: timbre / content disentanglement
     <br /><br />
