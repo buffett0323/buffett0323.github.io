@@ -215,7 +215,7 @@ const projectData: ProjectDataType[] = [
         <div>
         <div className="text-black dark:text-white">
             <b>{'Venue: '}</b>
-            Anonymous ACL Submission
+            AACL-IJCNLP 2026 (Main)
         </div>
         <div className="text-black dark:text-white">
             <b>{'Role: '}</b>

@@ -7,11 +7,25 @@ type Publication = {
   venue?: string;
   institution?: string;
   year?: string;
-  link: string;
-  linkLabel: string;
+  link?: string;
+  linkLabel?: string;
 };
 
 const publications: Publication[] = [
+  {
+    category: 'DiffuLM @ NeurIPS 2026',
+    title: 'Efficient Diffusion Language Model Serving beyond Autoregressive Assumptions',
+    authors: ['Guan-Ming Chiu', 'Jeng-Yue Liu'],
+    venue: 'NeurIPS 2026 Workshop on Diffusion Language Models (DiffuLM)',
+  },
+  {
+    category: 'AACL-IJCNLP 2026',
+    title: 'Dgrammar: Efficient Constrained Decoding for DLMs',
+    authors: ['Guan-Ming Chiu', 'Jeng-Yue Liu'],
+    venue: 'AACL-IJCNLP 2026 Main Conference',
+    link: 'https://openreview.net/forum?id=RXl3JIt0W3',
+    linkLabel: 'OpenReview',
+  },
   {
     category: 'ICML 2026 Position Paper',
     title: 'Position: AI Flaw Management Should Learn from the CVE Ecosystem',
@@ -62,28 +76,34 @@ export default function Publications() {
               <span className="rounded-full bg-blue-100 px-3 py-0.5 text-xs font-bold uppercase tracking-wide text-blue-700 dark:bg-blue-900 dark:text-blue-200">
                 {publication.category}
               </span>
-              <a
-                href={publication.link}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex shrink-0 items-center gap-1 text-sm font-medium text-blue-600 hover:underline dark:text-blue-300"
-              >
-                {publication.linkLabel}
-                <svg
-                  className="h-3.5 w-3.5"
-                  fill="none"
-                  stroke="currentColor"
-                  strokeWidth={2}
-                  viewBox="0 0 24 24"
-                  aria-hidden="true"
+              {publication.link ? (
+                <a
+                  href={publication.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex shrink-0 items-center gap-1 text-sm font-medium text-blue-600 hover:underline dark:text-blue-300"
                 >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    d="M13.5 6H5.25A2.25 2.25 0 0 0 3 8.25v10.5A2.25 2.25 0 0 0 5.25 21h10.5A2.25 2.25 0 0 0 18 18.75V10.5m-9 3 9.75-9.75M21 3h-5.25M21 3v5.25"
-                  />
-                </svg>
-              </a>
+                  {publication.linkLabel}
+                  <svg
+                    className="h-3.5 w-3.5"
+                    fill="none"
+                    stroke="currentColor"
+                    strokeWidth={2}
+                    viewBox="0 0 24 24"
+                    aria-hidden="true"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      d="M13.5 6H5.25A2.25 2.25 0 0 0 3 8.25v10.5A2.25 2.25 0 0 0 5.25 21h10.5A2.25 2.25 0 0 0 18 18.75V10.5m-9 3 9.75-9.75M21 3h-5.25M21 3v5.25"
+                    />
+                  </svg>
+                </a>
+              ) : (
+                <span className="shrink-0 text-sm font-medium italic text-gray-500 dark:text-gray-400">
+                  Coming soon
+                </span>
+              )}
             </div>
 
             <h2 className="text-base font-bold leading-snug text-gray-900 dark:text-white sm:text-lg">

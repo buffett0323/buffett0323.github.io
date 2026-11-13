@@ -3,105 +3,71 @@ import NTUGEOG from '../public/logos/ntugeog.jpeg';
 import NTUIM from '../public/logos/ntuim.png';
 import CMU from '../public/logos/cmu.png';
 
+const linkClass = 'text-blue-500 hover:underline';
+
 const descriptionData = [
   <>
     I am <b>Jeng-Yue (Buffett) Liu 劉正悦</b>, a Master&rsquo;s student in{' '}
-    <a
-      href="https://msaii.cs.cmu.edu/"
-      target="_blank"
-      rel="noopener noreferrer"
-      className="text-blue-500 hover:underline"
-    >
+    <a href="https://msaii.cs.cmu.edu/" target="_blank" rel="noopener noreferrer" className={linkClass}>
       Artificial Intelligence and Innovation
-    </a>
-    {' '}at the School of Computer Science, <b>Carnegie Mellon University</b>. My work sits at the intersection of
-    {' '}<b>efficient machine learning systems</b> and <b>generative models</b>, building models that are not only
-    capable, but fast, controllable, and reliable enough to run in the real world.
+    </a>{' '}
+    at <b>Carnegie Mellon University</b>. I work on <b>efficient machine learning systems</b> and{' '}
+    <b>generative models</b>: I care about models that are not only capable, but also fast, controllable, and reliable
+    enough to run in the real world.
   </>,
   <>
-    At the{' '}
+    Most of my recent work is on <b>diffusion language models (dLLMs)</b>, which generate text by filling in many
+    tokens in parallel rather than strictly left to right. I study how to decode them under constraints, how to check
+    whether what they produce is actually correct, and how to serve them efficiently once the usual autoregressive
+    assumptions no longer hold. Along the way I built{' '}
+    <a href="https://buffett0323.github.io/learning-dllms/" target="_blank" rel="noopener noreferrer" className={linkClass}>
+      dLLM Notes
+    </a>
+    , a learning website for dLLMs that walks from the training objective all the way to production serving, with
+    interactive demos and annotated paper notes.
+  </>,
+  <>
+    I came to this from audio. At the{' '}
     <a
       href="http://www.apsipa.org/friendlab/Application/FriendLab.asp?user=citimaclab@gmail.com"
       target="_blank"
       rel="noopener noreferrer"
-      className="text-blue-500 hover:underline"
+      className={linkClass}
     >
       Music and Audio Computing Lab, Academia Sinica
     </a>
-    , advised by{' '}
-    <a
-      href="https://www.ee.ntu.edu.tw/profile1.php?id=1090726"
-      target="_blank"
-      rel="noopener noreferrer"
-      className="text-blue-500 hover:underline"
-    >
+    , working with{' '}
+    <a href="https://www.ee.ntu.edu.tw/profile1.php?id=1090726" target="_blank" rel="noopener noreferrer" className={linkClass}>
       Prof. Yi-Hsuan Yang
-    </a>
-    {' '}and{' '}
+    </a>{' '}
+    and{' '}
     <a
       href="https://homepage.iis.sinica.edu.tw/pages/lisu/contact_en.html"
       target="_blank"
       rel="noopener noreferrer"
-      className="text-blue-500 hover:underline"
+      className={linkClass}
     >
       Prof. Li Su
     </a>
-    , I proposed{' '}
-    <a
-      href="https://buffett0323.github.io/synthcloner/"
-      target="_blank"
-      rel="noopener noreferrer"
-      className="text-blue-500 hover:underline"
-    >
+    , I developed{' '}
+    <a href="https://buffett0323.github.io/synthcloner/" target="_blank" rel="noopener noreferrer" className={linkClass}>
       SynthCloner
+    </a>{' '}
+    (ICASSP 2026) for controllable synthesizer sound conversion, and later brought similar ideas into production at{' '}
+    <a href="https://neutone.ai/" target="_blank" rel="noopener noreferrer" className={linkClass}>
+      Neutone
     </a>
-    {' '}(ICASSP 2026), a factorized codec disentangling timbre, content, and ADSR envelope for controllable
-    synthesizer preset conversion, cutting multi-scale STFT loss by <b>47.3%</b> over state-of-the-art baselines. I then
-    carried that line of work into production at{' '}
-    <a
-      href="https://neutone.ai/"
-      target="_blank"
-      rel="noopener noreferrer"
-      className="text-blue-500 hover:underline"
-    >
-      Neutone Inc.
-    </a>
-    , hardening their real-time tone-morphing plugin against out-of-distribution audio.
-  </>,
-  <>
-    At CMU, my work centers on making inference fast and dependable, with a particular focus on{' '}
-    <b>diffusion language models (dLLMs)</b>. I built <b>Dgrammar</b>, a grammar-constrained decoder for dLLMs that keeps
-    block-parallel unmasking while reaching <b>95.3% schema validity</b> on JSONSchemaBench, co-authored a study probing
-    functional correctness in diffusion language models (ACL SRW 2026), and wrote CUDA sparse-attention kernels that
-    reach a <b>22&ndash;50&times; speedup</b> on NVIDIA B200. I also shipped <b>Hypoll</b>, an AI-powered social
-    platform for real-time voice streaming, to iOS.
-  </>,
-  <>
-    To learn the field properly, and to help others do the same, I built{' '}
-    <a
-      href="https://buffett0323.github.io/learning-dllms/"
-      target="_blank"
-      rel="noopener noreferrer"
-      className="text-blue-500 hover:underline"
-    >
-      dLLM Notes
-    </a>
-    , a learning website for diffusion language models. It goes step by step from the masked-diffusion objective to
-    production serving, covering block diffusion, KV caching, parallel decoding, and batching, with interactive demos
-    and annotated notes on papers such as Fast-dLLM, dKV-Cache, and D2F.
-  </>,
-  <>
-    Before CMU, I earned dual Bachelor&rsquo;s degrees in Information Management (B.B.A.) and Geography (B.S.) from{' '}
-    <b>National Taiwan University</b>, graduating summa cum laude in the top 1% of the school.
+    . Before CMU, I earned dual Bachelor&rsquo;s degrees in Information Management and Geography from{' '}
+    <b>National Taiwan University</b>, graduating summa cum laude.
   </>,
   <>
     My interests center on:
     <br /><br />
-    • Efficient LLM inference &amp; serving systems: constrained decoding, sparse attention, GPU kernels
+    • Efficient LLM inference &amp; serving systems
     <br />
-    • Diffusion language models: sampling, caching, and parallel decoding for fast dLLM serving
+    • Diffusion language models: decoding, evaluation, and serving
     <br />
-    • Controllable music and audio generation: timbre / content disentanglement
+    • Controllable music and audio generation
     <br /><br />
   </>,
   <>
