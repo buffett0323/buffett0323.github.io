@@ -13,6 +13,22 @@ type Publication = {
 
 const publications: Publication[] = [
   {
+    category: 'Under Review · ICASSP 2027',
+    title: 'DJustify: Reason-and-Verify DJ Planning for Pop Transitions and Story-Driven Sets',
+    authors: [
+      'Wei-Han Hsu',
+      'Li-Jie Lin',
+      'Po-Hsuan Lai',
+      'Po-Hsiang Huang',
+      'Jeng-Yue Liu',
+      'Li Su',
+      'Yi-Hsuan Yang',
+    ],
+    venue: 'Submitted to ICASSP 2027',
+    link: 'https://arxiv.org/abs/2610.33434',
+    linkLabel: 'arXiv',
+  },
+  {
     category: 'DiffuLM @ NeurIPS 2026',
     title: 'Efficient Diffusion Language Model Serving beyond Autoregressive Assumptions',
     authors: ['Guan-Ming Chiu', 'Jeng-Yue Liu'],
@@ -23,8 +39,8 @@ const publications: Publication[] = [
     title: 'Dgrammar: Efficient Constrained Decoding for DLMs',
     authors: ['Guan-Ming Chiu', 'Jeng-Yue Liu'],
     venue: 'AACL-IJCNLP 2026 Main Conference',
-    link: 'https://openreview.net/forum?id=RXl3JIt0W3',
-    linkLabel: 'OpenReview',
+    link: 'https://aclanthology.org/2026.aacl-long.225/',
+    linkLabel: 'ACL Anthology',
   },
   {
     category: 'ICML 2026 Position Paper',
